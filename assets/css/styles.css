@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Berkshire Swash';
+    src: url('../fonts/BerkshireSwash-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Fredericka the Great';
+    src: url('../fonts/FrederickatheGreat-Regular.ttf') format('truetype');
+}
+
+@media (min-width: 992px) {
+    nav {
+        height: 70px;
+    }
+    .navbar-brand>img {
+        height: 60px;
+    }
+}
+@media (max-width: 992px) {
+    .jumbotron>div>.display-4 {
+        font-size: 40px;
+    }
+    .navbar-brand>img {
+        height: 50px;
+    }
+}
+.navbar-brand {
+    padding: 0;
+}
+.hide-nav {
+    top: -70px;
+    transition: all 0.2s ease-in-out;
+}
+.show-nav {
+    top: 0px;
+    transition: all 0.2s ease-in-out;
+}
+body {
+    font-family: "Roboto";
+    background-color: black;
+}
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 8px;
+}
+.nav-link {
+    font-weight: bold;
+}
+.bg-gold {background-color: #c09944;}
+.bg-gold-darker {background-color: #b68f3a;}
+.bg-black {background-color: #000000;}
+.bg-yellow {background-color: #f1e211;}
+.border-gold {
+    border: 1px solid #d1a84e;
+}
+li {
+    list-style: none;
+}
+.text-gold {color: #d1a84e;}
+.text-yellow{color: #fece2c;}
+.navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active {
+    border: none;
+    outline: none;
+}
+.jumbotron-home {
+    background: url("../images/hiking.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.jumbotron-about-us {
+    background: url("../images/_731874.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+#trapesium {
+    border-bottom: 90px solid #f1e211;
+    border-left: 0px solid transparent;
+    border-right: 55px solid transparent;
+    height: 0;
+    width: 250px;
+  }
+.tourism-item>img {
+    max-width: 100%;
+}
+.serif {font-family: Lora;}
+.font-berkshire {font-family: Berkshire Swash, cursive;}
+.font-fredericka {font-family: Fredericka the Great, cursive;}
+.features-image {
+    object-fit: cover;
+    object-position: 70% 0;
+    width: 200px;
+    max-width: 100%;
+    height: 300px;
+    filter: grayscale(100%)
+}
+#tourism-travel {
+    background-color: #222222;
+}
