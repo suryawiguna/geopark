@@ -90,13 +90,29 @@
                             <div class="card-body">
                                 <h5 class="card-title font-weight-bold text-gold">Pendakian Gunung Batur</h5>
                                 <p class="card-text text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex">
+                                    <a id="pendakian_batur" href="#" class="btn btn-outline-secondary btn-sm border flex-fill mr-1" style="border-radius: 20px;">
+                                       <span class="mdi mdi-map-marker"></span> Lihat di peta
+                                    </a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm border flex-fill ml-1" style="border-radius: 20px;">
+                                        Detail
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div class="card border-0 m-0">
                             <img class="card-img-top" src="assets/images/Batur-Geopark-.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title font-weight-bold text-gold">Pura Ulun Danu</h5>                                
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex">
+                                    <a id="ulundanu" href="#" class="btn btn-outline-secondary btn-sm border flex-fill mr-1" style="border-radius: 20px;">
+                                        <span class="mdi mdi-map-marker"></span> Lihat di peta
+                                    </a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm border flex-fill ml-1" style="border-radius: 20px;">
+                                        Detail
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div class="card border-0 m-0">
@@ -127,9 +143,35 @@
             id: 'mapbox.streets',
             accessToken: 'pk.eyJ1Ijoic3VyeWF3aWd1bmFhIiwiYSI6ImNqbTh0YnkxMDBzeTQza2tkenAwaWszOGEifQ.cY1nx875Kw12YxqT7nCpyw'
         }).addTo(mymap);
-        var pendakian_batur = L.marker([-8.261383, 115.391466]).addTo(mymap);
+        var markers = [];
+        function clickZoom(e) {
+            mymap.setView(e.target.getLatLng(),15);
+        }
+
         var img1 = "assets/images/Batur-Geopark-.jpg";
-        pendakian_batur.bindPopup("<img src="+img1+"><b>Pendakian Gunung Batur</b>").openPopup();
+        var pendakian_batur = L.marker([-8.261383, 115.391466], {title:"pendakian_batur"}).addTo(mymap).
+        bindPopup("<img src="+img1+"><b>Pendakian Gunung Batur</b>").on('click', clickZoom);
+        markers.push(pendakian_batur);
+
+        var img2 = "assets/images/Batur-Geopark-.jpg"
+        var ulundanu = L.marker([-8.252309, 115.335629], {title:"ulundanu"}).addTo(mymap).
+        bindPopup("<img src="+img2+"><b>Pura Ulun Danu</b>").on('click', clickZoom);
+        markers.push(ulundanu);
+
+        function markerFunction(id){
+            for (var i in markers){
+                var markerID = markers[i].options.title;
+                var position = markers[i].getLatLng();
+                if (markerID == id){
+                    mymap.setView(position, 15);
+                    markers[i].openPopup();
+                };
+            }
+        }
+        
+        $("a").click(function(){
+            markerFunction($(this)[0].id);
+        });
     </script>
     
 </body>
