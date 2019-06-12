@@ -30,6 +30,9 @@
     .navbar-brand>img {
         height: 50px;
     }
+    .cluster-img {
+        height: 200px !important;
+    }
 }
 .navbar-brand {
     padding: 0;
@@ -41,6 +44,9 @@
 .show-nav {
     top: 0px;
     transition: all 0.2s ease-in-out;
+}
+a {
+    text-decoration: none !important;
 }
 body {
     font-family: "Roboto";
@@ -79,26 +85,36 @@ body {
 li {
     list-style: none;
 }
+.uppercase {
+    text-transform: uppercase;
+}
 .text-gold {color: #d1a84e;}
 .text-yellow{color: #fece2c;}
+span.text-red {color: #d10000;}
 .navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active {
     border: none;
     outline: none;
 }
 .jumbotron-home {
-    background: url("../images/hiking.jpg") center center no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/hiking.jpg") center center no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
 .jumbotron-about-us {
-    background: url("../images/_731874.jpg") center center no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/_731874.jpg") center center no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
-.jumbotron-atraksi {
-    background: url("../images/desa-pinggan-bali-kintamani.jpg") center center no-repeat;
+.jumbotron-cluster {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/desa-pinggan-bali-kintamani.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.jumbotron-abang-erawang {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/Gunung-Abang-Kintamani-3.jpg") center center no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -119,6 +135,9 @@ li {
     border-right: 55px solid transparent;
     height: 0;
     width: 250px;
+  }
+  .tourism-item:hover {
+    background-color: #c09944;
   }
 .tourism-item>img {
     max-width: 100%;
