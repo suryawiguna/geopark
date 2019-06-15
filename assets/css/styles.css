@@ -119,6 +119,12 @@ span.text-red {color: #d10000;}
     height: 100vh;
     width: 100%;
 }
+.jumbotron-manuk-jambe {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/8354284712_26e0b128f8_b.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
 .cluster-img-caption {
     position: absolute;
     top: 50%;
@@ -133,6 +139,9 @@ span.text-red {color: #d10000;}
     object-fit: cover;
     width: 100%;
     height: 200px;
+}
+.img-darker {
+    filter: brightness(70%);
 }
 #trapesium {
     border-bottom: 90px solid #f1e211;
