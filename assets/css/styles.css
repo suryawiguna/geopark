@@ -1,18 +1,9 @@
-@font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Lora';
-    src: url('../fonts/Lora-Regular.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
 @font-face {
     font-family: 'Berkshire Swash';
     src: url('../fonts/BerkshireSwash-Regular.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Fredericka the Great';
-    src: url('../fonts/FrederickatheGreat-Regular.ttf') format('truetype');
 }
 
 @media (min-width: 992px) {
@@ -48,8 +39,22 @@
 a {
     text-decoration: none !important;
 }
+#nav-activities .nav-link {
+    color: #FFFFFF;
+    padding: 25px 10px;
+    border-bottom: 1px solid #c09944;
+}
+#nav-activities .nav-link > h4 {
+    margin:0;
+}
+#nav-activities .nav-link:hover,
+#nav-activities .nav-link.active > h4 {
+    color: #c09944 !important;
+    font-weight: bold;
+}
+
 body {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     background-color: black;
 }
 .card-deck {
@@ -89,8 +94,8 @@ li {
     text-transform: uppercase;
 }
 .text-gold {color: #d1a84e;}
-.text-yellow{color: #fece2c;}
-span.text-red {color: #d10000;}
+.text-yellow{color: #f1e211;}
+span.text-red {color: #f40000;}
 .navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active {
     border: none;
     outline: none;
@@ -143,6 +148,12 @@ span.text-red {color: #d10000;}
     height: 100vh;
     width: 100%;
 }
+.jumbotron-aktivitas {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/Sunrise-volcano-trek-to-Mount-Batur-shutterstock_526245781.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
 .cluster-img-caption {
     position: absolute;
     top: 50%;
@@ -151,12 +162,16 @@ span.text-red {color: #d10000;}
 }
 .cluster-img {
     object-fit: cover;
-    height: 400px;
+    height: 300px;
 }
 .cluster-gallery {
     object-fit: cover;
     width: 100%;
     height: 200px;
+}
+.img-fluid {
+    width: 100%;
+    height: auto;
 }
 .img-darker {
     filter: brightness(70%);
@@ -174,6 +189,14 @@ span.text-red {color: #d10000;}
     border-right: 55px solid transparent;
     height: 0;
     width: 210px;
+}
+.trapesium-3 {
+    border-bottom: 60px solid #f1e211;
+    border-left: 55px solid transparent;
+    border-right: 0px solid transparent;
+    height: 0;
+    width: 280px;
+    margin-top: 30px;
 }
   .tourism-item:hover {
     background-color: #c09944;
@@ -194,4 +217,7 @@ span.text-red {color: #d10000;}
 }
 #tourism-travel {
     background-color: #222222;
+}
+p{
+    line-height: 1.75em;
 }

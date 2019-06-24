@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Geopark</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/3.6.95/css/materialdesignicons.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navbar" class="container-fluid navbar navbar-expand-lg fixed-top bg-gold py-0 navbar-light">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="assets/images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="mdi mdi-menu"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Call Center</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="main">
+    <div class="jumbotron jumbotron-aktivitas jumbotron-fluid d-flex flex-column justify-content-center align-items-center mb-0">
+            <div class="container text-left">
+                <h1 class="display-4 serif text-white uppercase">batur geopark <br>awaits you...</h1>
+            </div>
+        </div>
+
+        <div class="bg-yellow d-flex flex-sm-row flex-column text-center justify-content-center py-4"></div>
+
+        <div id="overview" class="container pt-5">
+            <div class="row">
+                <div class="d-flex flex-column justify-content-center px-5">
+                    <h1 class="text-center text-yellow font-weight-bold uppercase pb-4">plan your trip</h1>
+                    <p class="text-white serif text-center">
+                            Go travel the geopark as you can find many activity you are interested in and the adventure you would like to experience. <br>
+                            Click on the activity that you interested, see its details then we can provide the information to suit your needs. Or contact us directly for our  advice.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 px-4 pt-4">
+                    <p class="text-white serif mb-5">
+                        (+) We like to collect as much information possible to assist in making your travel the best experience. Points to take into consider whilst planning your trip.
+                    </p>
+                    <p class="text-white serif mb-5">
+                        (+) Accommodation experience a variety of small boutique lodges, semi permanent and permanent camps. Or if you are open to our suggestions we are more than happy to provide our favourite!
+                    </p>
+                    <p class="text-white serif mb-5">
+                        (+) What style and level of sactivity would you prefer, luxury private/customised, family, group combination or open to our expert advice.
+                    </p>
+                </div>
+                <div class="col-md-6 px-4 pt-4">
+                    <p class="text-white serif mb-5">
+                        (+) We realise budget and time play a big factor in planning your adventure so we endeavour to give you the most out of your needs and requirements.
+                    </p>
+                    <p class="text-white serif mb-5">
+                        (+) Whether your travel dates range is any days, we are able to assist in linking all of your information needs in individual adventures.
+                    </p>
+                    <p class="text-white serif mb-5">
+                        (+) Time of year recommendations from June to October or December to March we can advise to match your ultimate experience.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="bg-yellow py-2 p-4"></div>
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-md-3">
+                        <div class="nav flex-column" id="nav-activities" role="tablist" aria-orientation="vertical">
+                            <h5 class="text-yellow border-bottom border-warning pb-3 m-0">What Interest You?</h5>
+                            <a class="nav-link active" id="v-pills-trekking-tab" data-toggle="pill" href="#v-pills-trekking" role="tab" aria-controls="v-pills-trekking" aria-selected="true">
+                                <h4>Trekking</h4>
+                            </a>
+                            <a class="nav-link" id="v-pills-cycling-tab" data-toggle="pill" href="#v-pills-cycling" role="tab" aria-controls="v-pills-cycling" aria-selected="false">
+                                <h4>Cycling</h4>                                
+                            </a>
+                            <a class="nav-link" id="v-pills-sightseeing-tab" data-toggle="pill" href="#v-pills-sightseeing" role="tab" aria-controls="v-pills-sightseeing" aria-selected="false">
+                                <h4>Sightseeing</h4>
+                            </a>
+                            <a class="nav-link" id="v-pills-relaxing-tab" data-toggle="pill" href="#v-pills-relaxing" role="tab" aria-controls="v-pills-relaxing" aria-selected="false">
+                                <h4>Relaxing</h4>                                
+                            </a>
+                            <a class="nav-link" id="v-pills-camping-tab" data-toggle="pill" href="#v-pills-camping" role="tab" aria-controls="v-pills-camping" aria-selected="false">
+                                <h4>Camping</h4>                                
+                            </a>
+                            <a class="nav-link" id="v-pills-spiritual-tab" data-toggle="pill" href="#v-pills-spiritual" role="tab" aria-controls="v-pills-spiritual" aria-selected="false">
+                                <h4>Spiritual</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            
+                            <!-- TREKKING -->
+                            <div class="tab-pane fade show active" id="v-pills-trekking" role="tabpanel" aria-labelledby="v-pills-trekking-tab">
+                                <div class="d-flex flex-column">
+                                    <div class="trapesium-3 ml-auto">
+                                        <p class="font-weight-bold pt-3 px-2">Mount Batur Trekking</p>
+                                    </div>
+                                    <img src="assets/images/activities/b8.jpg" alt="" class="img-fluid">
+                                    <p class="text-white mt-4">
+                                        Trek to Mount Batur is one of the most exciting activities in Kintamani which cannot be missed. Head fast to Batur and see the sun rising. No other place can provide a better welcome the sun. Mount Batur is considered as one of the sacred mountains by the Hindus. The dawn trekking in Bali is exceptionally well known among the vacationers everywhere, throughout the world. Feel the difficulties as you the dimness raises them but you trek continuously to reach the top and appreciate the stunning dawn. Adjacent to Mount Batur lies the large crescent – shaped Batur lake, all surrounded by the high walls of crater rim, making the view absolutely magnificent. Starting point for this trekking activity is in 
+                                        <span class="text-red">Karang Anyar Cluster</span>, especially in 
+                                        <span class="text-red">Batur Tengah</span> village.
+                                    </p>
+                                    <div class="bg-yellow pl-3 pr-5 py-2 uppercase mr-auto mt-4">
+                                        <h4 class="font-weight-bold my-0 mr-5">geotrails</h4>
+                                    </div>
+                                    <p class="text-white mt-4">
+                                        The proposed Geopark has 3 geotrails, which were developed to visit the location of geosites for educational and tourism purposes. Two geotrails have volcanic geology aspects, the other has a cultural interest. These geotrails are:
+                                    </p>
+                                    <p class="text-white mt-2">
+                                        1. <span class="text-red">Batur Summit Geotrails.</span> It is a track to the top of volcano and some craters by foot. The trip is guided by the appointed officer of Geopark, particularly guides from Batur Volcano observation post. Mountain-biking trails was set up in area around the foot of volcano which composed of lavas. 
+                                    </p>
+                                    <div class="row mb-3">
+                                        <div class="col-md-6">
+                                            <p class="text-white mt-2">
+                                                2. <span class="text-red">Batur Lake Geotrails.</span> That is a tracing along outskirts of the lake to see many types of lavas, including the location of famous Julia Roberts film making (“Eat, Pray, Love”). This trajectory using boats owned by the local department of cultural and tourism. 
+                                            </p>
+                                            <p class="text-white mt-2">
+                                                3. <span class="text-red">Trunyan Village Cultural Trail.</span> It is visited a traditional village which very condensed with customs, including a typical grave of Trunyan community and the famous temple. Travel to Trunyan can through the lake or by the village roads with four-wheel drive vehicles. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="assets/images/Untitled-3.png" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="trapesium-3 ml-auto">
+                                        <p class="font-weight-bold pt-3 px-2">Mount Batur Trekking</p>
+                                    </div>
+                                    <img src="assets/images/activities/mount-abang.jpg" alt="" class="img-fluid">
+                                    <p class="text-white mt-4">
+                                        Mount Abang is the iconic attraction of Kintamani. Your trip to Bali is incomplete if you haven’t visited to this place. Enjoy the perfect weather and serenity of nature in the lap of Mount Abanag. This place is known for its glorious beauty and the popular volcanic eruption. This place will steal your Heart for sure. Why just listen to us and dream of it, Why not try yourself!. The starting pont for this trekking activity is from 
+                                        <span class="text-red">Abang Songan</span> village,  in <span class="text-red">Abang Erawang Cluster</span>.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <!-- CYCLING -->
+                            <div class="tab-pane fade" id="v-pills-cycling" role="tabpanel" aria-labelledby="v-pills-cycling-tab">
+                                <div class="d-flex flex-column">
+                                    <img src="assets/images/activities/Lokasi-Start-Point-Wisata-Sepeda-Kintamani.jpg" alt="" class="img-fluid">
+                                    <p class="text-white mt-4">
+                                        Located in a highland area at the northeast side of Bali, 
+                                        <span class="text-red">Karanganyar Cluster</span> in Kintamani Highland are very famous for its scenic beauty. What could be better than sightseeing all the amazing places with cycling tours? Get a chance to enjoy the wonderful vistas of Bali’s active volcano Mount Batur from the rim of its gigantic crater in Kintamani. Cycle through the stunning view of the region and explore the beauty and tranquillity. Breathe in the fresh mountain air and also peek into the daily lives of the local people. Kintamani Highland Cycling Tour is a must do in Bali along with your friends which will be worth remembering. There are different cycling tour from which you can choose from. Make your vacation special with these exciting Kintamani Highland Tours in Bali.
+                                    </p>
+                                    <p class="text-white mt-2">
+                                        This cycling activity usually takes you downhill to the Batur Caldera in order to see a magnificent Mt. Batur panorama. Besides enjoying the views of Lake Batur and Mount Batur, the tourist will also see first hand the activities of farming the population in the local village along the way, so that it will add new experiences to tourists, because they will see directly the fertile agricultural plants. After 1 hour enjoying a cycling tour of, you can either continue to enjoy natural hot water at Toya Devasya or visit another great destination. You can find many accomodations who provide these cycling tour activity along with the guide and a place to stay exactly with a decent price.
+                                    </p>
+                                    <div class="trapesium-3 ml-auto">
+                                        <p class="font-weight-bold pt-3 px-2">Buahan Cycling Tour</p>
+                                    </div>
+                                    <img src="assets/images/activities/Mount_batur_view.jpg" alt="" class="img-fluid">
+                                    <p class="text-white mt-4">
+                                        You can also visit Buahan Village to feel this cycling experience through Local Working Group who worked together to provide tourists with cycle and guides in exploring 
+                                        <span class="text-red">Buahan, Kedisan, and Trunyan</span> or all interesting places in 
+                                        <span class="text-red">Manuk Jambe Tarumenyan Cluster</span>. If you take this cycling route, the starting point wil be in Buahan village and this cycling tour takes you to traditional plantation owned by the locals, you can also greet and communicate with the local farmer if you want to know how they keeps their fresh crops every year.
+                                    </p>
+                                    <p class="text-white mt-2">
+                                        Some of the main needs to take part in cycling tours in Buahan vllage have been prepared, such as bicycles, helmets, mineral water, and for tourists who can’t reach the finish point, the locals also provide a car as a sweeper that following the tourist from behind and ready to transport the participants along with the bike.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- SIGHTSEEING -->
+                            <div class="tab-pane fade" id="v-pills-sightseeing" role="tabpanel" aria-labelledby="v-pills-sightseeing-tab">
+                                <div class="d-flex flex-column">
+                                    <img src="assets/images/activities/penelokan viewpoint.jpg" alt="" class="img-fluid">
+                                    <p class="text-white mt-4">
+                                        Batur Caldera is a place blessed with beauty. A good angle-view through Panelokan, a view-point in southern caldera rim, displays a fantastic bunch of certain phenomena, such as caldera rim of Caldera-I and Caldera-II, Batur volcanic edifies, volcanic products, and lake. Batur Volcano emerged in a large bowl of Batur Caldera is presiding over it all, adds regal repose and power when it is erupting. The land rumples like black spurs of lava, expanse interspersed by green trees. A bluish water of Lake Batur is heavenly rhythm. It is believed that Batur Caldera’s spectacular landscapes is one of finest volcanic landscape in the world (van Bemmelen, 1949). From this landscape it might be eligible for explaining natural phenomena as educational matter by displaying some panels.
+                                    </p>
+                                    <div class="trapesium-3 ml-auto">
+                                        <p class="font-weight-bold pt-3 px-2">Suter View Points</p>
+                                    </div>
+                                    <img src="assets/images/activities/IMG_20180520_141900.jpg" alt="" class="img-fluid">
+                                    <p class="text-white mt-4">
+                                        Located in southeastern part of Batur Caldera, 
+                                        <span class="text-red">Suter Village</span> in 
+                                        <span class="text-red">Abang Erawang</span> cluster has a splendid viewpoint. Subsidence of Catur- and Batur Calderas floor is not evenly distributed in every place. In southeastern part there is a decrease of more intensive so that floor of the caldera that formed more than any other part. The southeastern and northeastern parts of caldera are now filled by rain water, formed the Batur Lake.
+                                    </p>
+                                    <div class="trapesium-3 ml-auto">
+                                        <p class="font-weight-bold pt-3 px-2">Pinggan Sunrise Points</p>
+                                    </div>
+                                    <img src="assets/images/activities/IMG_20180520_141900.jpg" alt="" class="img-fluid">
+                                    <p class="text-white mt-4">
+                                        Located in the Kintamani region northeast on the island at an altitude of 1300 meters above sea level, 
+                                        <span class="text-red">Pinggan Village</span> in 
+                                        <span class="text-red">Singamandawa Cluster</span> is a unique sight. If you are an avid photographer or just need a place to shoot photos for a special occasion like a wedding, Pinggan Village is the perfect place. You would see a lot of spots to see the sunrise background in the valley of Mount Batur and Lake Batur are in a blanket thin mist and beautiful moment in translucent morning sunlight, in pinggan village the temperature between 19 -20 degree Celsius, so you must be ready with your jumper, and please avoid in raining season.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- RELAXING -->
+                            <div class="tab-pane fade" id="v-pills-relaxing" role="tabpanel" aria-labelledby="v-pills-relaxing-tab">
+                                <div class="d-flex flex-column">
+                                    <div class="trapesium-3 ml-auto">
+                                        <p class="font-weight-bold pt-3 px-2">Toya Devasya Hot Springs</p>
+                                    </div>
+                                    <img src="assets/images/activities/toya-devasya-natural.jpg" alt="" class="img-fluid">
+                                    <p class="text-white mt-4">
+                                        Located on
+                                        <span class="text-red">Batur Utara</span> village in 
+                                        <span class="text-red">Karanganyar Cluster</span>
+                                        Toya Devasya Hot Spring must be among your top choices to enjoy the perfect serenity with a hot spring bath. Toya Devassya Hot Spring is a unique natural hot spring in Bali which is also said to have some medicinal healing powers. The one thing that makes this place even better is the endearing scenic beauty of the region which leaves the onlookers awestruck. Breathe in the clean air as you enjoy tranquility, soaked in the hot spring that will detox your body and soothe your mind. Three swimming pools are present in the region, with an area of about 15 m, right overlooking the Mount and Lake Batur area. Restoration of power and cure to several diseases has been credited to the sulphur content of the hot springs.
+                                    </p>
+                                    <div class="trapesium-3 ml-auto">
+                                        <p class="font-weight-bold pt-3 px-2">Lake View Restaurant</p>
+                                    </div>
+                                    <img src="assets/images/activities/156173288.jpg" alt="" class="img-fluid">
+                                    <p class="text-white mt-4">
+                                        What’s more relaxing than enjoying your food while a beautiful Batur mountain panoramas lies beyond your eyes, this is the place!, located on 
+                                        <span class="text-red">Batur Tengah</span> village in 
+                                        <span class="text-red">Karanganyar Cluster</span>
+                                        Lake View Restaurant offers courses set of menu and a cozy place to enjoy it. And if you want to taste an original culinary from Bali you can find that here too, you can’t miss the Kintamani coffee also especially the famous Luwak Coffee.
+                                    </p>
+                                    <div class="trapesium-3 ml-auto">
+                                        <p class="font-weight-bold pt-3 px-2">Resto Apung</p>
+                                    </div>
+                                    <img src="assets/images/activities/Resto-Apung-Kintamani-1.jpg" alt="" class="img-fluid">
+                                    <p class="text-white mt-4">
+                                        If Lakeview Restaurant let you enjoying your food from the top, this one is a different type. Located on 
+                                        <span class="text-red">Kedisan village</span> in 
+                                        <span class="text-red">Manuk Jambe Taru Menyan Cluster</span>
+                                        Resto Apung, according to its name “Apung” means floating, so the uniqueness this restaurant is floating in top of Lake Batur. This Restaurant offers seafood menu for its meal, and of course a nice place to spend time with your travel friends while drinking coffee or bottle of beer. Resto Apung also offers a good view to take a photo because from this place the view were straight to the Batur mountains without any obstacles.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- CAMPING -->
+                            <div class="tab-pane fade" id="v-pills-camping" role="tabpanel" aria-labelledby="v-pills-camping-tab">
+                                <div class="trapesium-3 ml-auto">
+                                    <p class="font-weight-bold pt-3 px-2">N'jung Bali Camp</p>
+                                </div>
+                                <img src="assets/images/activities/Tempat-kemah-di-Njung-Bali-Camp.jpg" alt="" class="img-fluid">
+                                <p class="text-white mt-4">
+                                    Njung Bali Camp, located in the
+                                    <span class="text-red">Songan B Village</span> in 
+                                    <span class="text-red">Ulun Danu Muncar Cluster,</span>
+                                    is relatively a new place, starting to open in early 2017. Njung Bali Camp is not only an ordinary camping place, but this place is well arranged with beautiful gardens that blend beautifully with the surrounding nature. Likewise a number of spots for selfie photos are provided, an Instagramable place in Bali that is liked by adventurers, young people and those who like photo hunting. What is served at Njung Bali Camp will provide valuable memories of your camping tour on Kintamani.
+                                </p>
+                                <div class="trapesium-3 ml-auto">
+                                    <p class="font-weight-bold pt-3 px-2">Bali Sunrise Camp</p>
+                                </div>
+                                <img src="assets/images/activities/IMG20170723145136.jpg" alt="" class="img-fluid">
+                                <p class="text-white mt-4">
+                                    Located in 
+                                    <span class="text-red">Pinggan Village</span> in 
+                                    <span class="text-red">Singamandawa Cluster</span>
+                                    can enjoy the scenery and view around this camping ground. You will be amazed by the scenery of the mountains, hills, natural nature and also the blue ocean. It will give a unique and remarkable moment in your life. Furthermore, this camping Bali will also provide the experience peaceful villagers life around it. What makes this Camping ground is more interesting is that the combination view between those three mountains that is added to the scenery of the other natures. The beautiful scenery in this camping in Bali activity is combined with the view of the natural green hills and the blue east Bali Sea.
+                                </p>
+                                <div class="trapesium-3 ml-auto">
+                                    <p class="font-weight-bold pt-3 px-2">Kayupadi Camping Ground</p>
+                                </div>
+                                <img src="assets/images/activities/2018-07-15.jpg" alt="" class="img-fluid">
+                                <p class="text-white mt-4">
+                                    If you wake up early, you will able to see the magical sunrise view from the camping ground. Fortunately, this camping ground is one of the best places to witness the sunrise view. That is why don’t forget to bring the camera to capture that best moment. This camping ground is located in Kayupadi hill, 
+                                    <span class="text-red">Songan A Village</span> in 
+                                    <span class="text-red">Ulun Danu Muncar Cluster</span>
+                                    that is located between the Batur Lake and Batur Mountain. In addition, it is located at 900 meters height above the sea surface. That is why the campers can see the clearer sunrise view from this camping ground and they will be accompanied by the cool air that is so comfortable as well.
+                                </p>
+                                <div class="trapesium-3 ml-auto">
+                                    <p class="font-weight-bold pt-3 px-2">Alengkong Ground</p>
+                                </div>
+                                <img src="assets/images/activities/2018-11-26.jpg" alt="" class="img-fluid">
+                                <p class="text-white mt-4">
+                                    Alengkong Hill is one of the most popular place for beautiful sunrise. It’s located in the
+                                    <span class="text-red">Songan B Village</span>,
+                                    <span class="text-red">Ulun Danu Muncar Cluster</span>.
+                                    Once at the top of the Alenggkong Hill it feels like being in a sacred space where the top of a mountain bursts over a cloud, the ocean spreading on one side and the lake opposite. From a distance we see Mount Rinjani in Lombok island, besides it will see the ocean region and Mount Agung is very amazing. Fantastic views of both the sea and the lake can be seen at once as you walk in the rim. From the right side we can see Mount Batur and Lake Batur, on the sore of the lake there is a natural hot spring that will help you release the tight muscles after the climb.
+                                </p>
+                                <div class="trapesium-3 ml-auto">
+                                    <p class="font-weight-bold pt-3 px-2">Top of Mt. Batur Camp</p>
+                                </div>
+                                <img src="assets/images/activities/125597999.jpg" alt="" class="img-fluid">
+                                <p class="text-white mt-4">
+                                    To reach this camping ground is quite a hike, you must climb the Mt. Batur until 1500 meters height above the sea, but the combination of hiking and camping to see the sunset and sunrise are breathtaking from the summit of Mount Batur. If you never climbs up Mt. Batur before, we recommend you to use the local guide. Mount Batur is 1717 meters above sea level, Mount Batur Trekking Volcano the most out of this trek, you need two days one night to experience Sunset and Sunrise, and explore everything about Mount Batur Volcano. In this way you are able to have an incredible camping experience, you will spend a night on top of Mount Batur.
+                                </p>
+                            </div>
+                            
+                            <!-- SPIRITUAL -->
+                            <div class="tab-pane fade" id="v-pills-spiritual" role="tabpanel" aria-labelledby="v-pills-spiritual-tab">
+                                <div class="trapesium-3 ml-auto">
+                                    <p class="font-weight-bold pt-3 px-2">Ulun Danu Batur Temple</p>
+                                </div>
+                                <img src="assets/images/activities/image.jpg" alt="" class="img-fluid">
+                                <p class="text-white mt-4">
+                                    Try to visit this sacred Temple that located on 
+                                    <span class="text-red">Batur Selatan,</span> in 
+                                    <span class="text-red">Karanganyar Cluster.</span>
+                                    For the worship natural world, the Balinese Hindu builds temple as adaptation and presentation of mountain-like figure. It is designed as an open air worship place within enclosed walls, connected with series of intricately decorated gates to reach its compounds. 27 others Pura are found around Batur Caldera. The temple buildings made from carved stone of andesitic-basaltic lava that produced by the Batur Volcano. Some of Pura are categorized as archaeological site.
+                                </p>
+                                <div class="trapesium-3 ml-auto">
+                                    <p class="font-weight-bold pt-3 px-2">Bukit Mentik Temple</p>
+                                </div>
+                                <img src="assets/images/activities/bukit mentik.jpg" alt="" class="img-fluid">
+                                <p class="text-white mt-4">
+                                    Bukit Mentik Temple is located close to Lake Batur, 
+                                    <span class="text-red">Batur Selatan,</span> in 
+                                    <span class="text-red">Karanganyar Cluster</span>.
+                                    There is frozen lava around the temple, used material from the eruption of Mount Batur. The location of the temple is very beautiful and beautiful, thus creating comfort and peace, Bukit Mentik Temple was built to worship Dewi Danu, the Goddess that live in Batur Lake and bring prosperity to peoples who live around it. The big ceremony called “piodalan” occurs around October every year, or “Sasih Kapat” in Balinese, when the growing season begins.
+                                </p>
+                                <div class="trapesium-3 ml-auto">
+                                    <p class="font-weight-bold pt-3 px-2">Dalem Balingkang Temple</p>
+                                </div>
+                                <img src="assets/images/activities/big_slider_Klenteng_Cong_Po_Kong_yang_terletak_di_dalam_Pura_Ulun_Danu_Batur_2C_Bali.JPG.png" alt="" class="img-fluid">
+                                <p class="text-white mt-4">
+                                    Dalem balingkang Temple is located at  
+                                    <span class="text-red">Pinggan Village </span> on 
+                                    <span class="text-red">Singamandawa Cluster</span>.
+                                    It is easier to reach this place with a vehicle, get to the parking area first, and continue on foot for some 500 meters to reach the entrance. The word “Balingkang” translates “King of Bali”. Dalem Balingkang Temple was a result of an acculturation between Chinese and Balinese civilization in the 11 centuries ago. Even the place itself has been influenced by chinese designs and architectural styles.
+                                </p>
+                                <div class="trapesium-3 ml-auto">
+                                    <p class="font-weight-bold pt-3 px-2">Puncak Penulisan Temple</p>
+                                </div>
+                                <img src="assets/images/activities/pura-puncak-penulisan.jpg" alt="" class="img-fluid">
+                                <p class="text-white mt-4">
+                                    This temple sits around 1,745 meters above sea levels, and located at 
+                                    <span class="text-red">Sukawana Village </span> on 
+                                    <span class="text-red">Singamandawa Cluster</span>.
+                                    Puncak penulisan Temple , based on balinese old manuscripts, it was said that Penulisan Hills where this temple was built was also called tunggal Hill, a stretching hill that separated Bali from West to East become the southern side and northern side of Bali. Around the ninth century, on the peak of Penulisan Hill Tegeh Koripan temple was built, known more as Puncak Penulisan Temple, as it lies on top of penulisan hill. This temple has 11 terraces. the terraces show the continuation of pyramidal structural aspect of megalithic age. If you interested in knowing about Bali Dwipa Kingdom, Puncak Penulisan has many of what remains in King Jaya Pangus ruled kingdom.
+                                </p>
+                                <div class="trapesium-3 ml-auto">
+                                    <p class="font-weight-bold pt-3 px-2">Pancering Jagat Temple</p>
+                                </div>
+                                <img src="assets/images/activities/7554695.f0e229b4.640.jpg" alt="" class="img-fluid">
+                                <p class="text-white mt-4">
+                                    Located in 
+                                    <span class="text-red">Trunyan Village </span> in 
+                                    <span class="text-red">Manuk jambe Taru Menyan Cluster</span>,
+                                    the name of the temple came from 4m high megalithic statue, called by locals “Arca da Tonta” or “Ratu Gede Pusering Jagat. The big ritual ceremony of the Temple falls on the Balinese calendar of Purnamaning Sasih Kapat (around October). During some occassions Barong Brutuk is performed live, to celebrate the legendary wedding anniversary between Ratu Sakti Pancering Jagat (the guardian of the village) and Ratu Ayu Dalem Piningit (Ratu Ayu Dalem Dasar).
+                                </p>
+                                <div class="trapesium-3 ml-auto">
+                                    <p class="font-weight-bold pt-3 px-2">Trunyan Cemetery</p>
+                                </div>
+                                <img src="assets/images/activities/Deretan-tengkorak-mepasah-di-Desa-Trunyan-Bali-1024x683.jpg" alt="" class="img-fluid">
+                                <p class="text-white mt-4">
+                                    This Cemetery is located just north east of 
+                                    <span class="text-red">Trunyan Village </span> in 
+                                    <span class="text-red">Manuk jambe Taru Menyan Cluster</span>,
+                                    the name of Trunyan was derived from the word “Taru” and “Menyan”, fragrant trees growing in the village. Local people deem the trees highly important. Corpses of dead people are just laid down openly on the graveyard under the trees covered with white fabrics and the so called bamboo covers “Ancak Saji”, but the faces of the dead are left open. This kind of funeral known as “Mapasah”.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-yellow p-3 mb-2">
+                    <h5 class="uppercase font-weight-bold text-center m-0">see these clusters for more details</h5>
+                </div>
+                <div class="row px-2">
+                    <a href="abang-erawang.html" class="col-md-4 p-2">
+                        <img src="assets/images/balipostcom_hutan-di-kintamani-cocok-dikembangkan-jadi-kebun-raya_01-696x464.jpg" alt="" width="100%" class="cluster-img img-darker">
+                        <h5 class="text-light cluster-img-caption font-weight-bold uppercase m-0">CLUSTER ABANG ERAWANG</h5>                        
+                    </a>
+                    <a href="manuk-jambe.html" class="col-md-4 p-2">
+                        <img src="assets/images/8c7a5b3ac814_resize_800_600_rel_left_top.jpg" alt="" width="100%" class="cluster-img img-darker">
+                        <h5 class="text-light cluster-img-caption font-weight-bold uppercase m-0">CLUSTER MANUK JAMBE TARUMENYAN</h5>                        
+                    </a>
+                    <a href="singamandawa.html" class="col-md-4 p-2">
+                        <img src="assets/images/Desa-Pinggan-Kintamani_mikevisuals.jpg" alt="" width="100%" class="cluster-img img-darker">
+                        <h5 class="text-light cluster-img-caption font-weight-bold uppercase m-0">CLUSTER SINGAMANDAWA</h5>                        
+                    </a>
+                </div>
+                <div class="row px-2 mb-4">
+                    <a href="karanganyar.html" class="col-md-4 offset-md-2 p-2">
+                        <img src="assets/images/Pura-Ulun-Danu-Batur.jpg" alt="" width="100%" class="cluster-img img-darker">
+                        <h5 class="text-light cluster-img-caption font-weight-bold uppercase m-0">CLUSTER KARANGANYAR</h5>                        
+                    </a>
+                    <a href="ulun-danu.html" class="col-md-4 p-2">
+                        <img src="assets/images/patung-dewi-danu.jpg" alt="" width="100%" class="cluster-img img-darker">
+                        <h5 class="text-light cluster-img-caption font-weight-bold uppercase m-0">CLUSTER ULUN DANU MUNCAR</h5>                        
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="bg-gold pt-5 pb-4 px-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-white mb-2">
+                        <h5 class="font-weight-bold">CONTACT US</h5>
+                        <ul class="p-0">
+                            <li><span class="mdi mdi-email-outline"></span> info@baturglobalgeopark.com</li>
+                            <li><span class="mdi mdi-phone"></span> 0366-91537</li>
+                            <li><span class="mdi mdi-fax"></span> 0366-91537</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 text-white mb-2">
+                        <h5 class="font-weight-bold">OTHER LINKS</h5>
+                        <ul class="p-0">                        
+                            <li>Dinas Pariwisata Kabupaten Bangli</li>
+                            <li>ASEAN Biodiversity</li>
+                            <li>Pemerintah Kabupaten Bangli</li>
+                            <li>UNESCO</li>
+                            <li>Global Geopark</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 text-white mb-2">
+                        <h5 class="font-weight-bold">SOCIAL MEDIA</h5>
+                        <ul class="p-0">                        
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div id="copyright" class="d-flex justify-content-center bg-gold-darker p-3">
+            <p class="m-0 font-weight-bold text-center">Copyright &copy; 2019 Batur Global Park Official Website</p>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $(this).scrollTop(0);
+        });
+    </script>
+</body>
+</html>
