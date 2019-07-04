@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Geopark</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/3.6.95/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+    integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+    crossorigin=""></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navbar" class="container-fluid navbar navbar-expand-lg fixed-top bg-gold py-0 navbar-light">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="assets/images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="mdi mdi-menu"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Call Center</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="main">
+        <div id="img-slider" class="d-flex flex-row mt-5">
+            <img src="assets/images/atraksi/pendakian-batur/61751719_142432206869500_4836069601906516677_n.jpg" class="mx-1" alt="">
+            <img src="assets/images/atraksi/pendakian-batur/62062632_608733482951584_2959060129236480962_n.jpg" class="mx-1" alt="">
+            <img src="assets/images/atraksi/pendakian-batur/62237621_481332079340362_6713304552190130263_n.jpg" class="mx-1" alt="">
+            <img src="assets/images//atraksi/pendakian-batur/62649724_858052724577766_7874767428464606045_n.jpg" class="mx-1" alt="">
+            <img src="assets/images/atraksi/pendakian-batur/b8.jpg" class="mx-1" alt="">
+        </div>
+    
+        <div class="container my-4">
+            <div class="row">
+                <div class="col">
+                    <small class="text-secondary">Cluster <span class="mdi mdi-chevron-right"></span> Atraksi Wisata<span class="mdi mdi-chevron-right"></span> Detail</small>
+                    <h1 class="text-gold font-weight-bold serif mb-0 mt-3">Pendakian Batur</h1>
+                    <p class="text-light">Cluster Karanganyar</p>
+                    <div class="d-flex flex-column flex-md-row flex-wrap">
+                        <div class="d-flex flex-row pr-4">
+                            <span class="mdi mdi-star mdi-18px text-gold"></span>
+                            <span class="mdi mdi-star mdi-18px text-gold"></span>
+                            <span class="mdi mdi-star mdi-18px text-gold"></span>
+                            <span class="mdi mdi-star mdi-18px text-gold"></span>
+                            <span class="mdi mdi-star mdi-18px text-gold"></span>
+                            <small class="text-secondary ml-1">(1)</small>
+                        </div>
+                        <div class="d-flex flex-row pr-4">
+                            <span class="mdi mdi-phone mdi-18px text-white"></span>
+                            <p class="text-white ml-1 mb-0">(0366)-91537</p>
+                        </div>
+                        <div class="d-flex flex-row pr-4">
+                            <span class="mdi mdi-facebook-box mdi-18px text-white"></span>
+                            <p class="text-white ml-1 mb-0">Batur Global Geopark</p>
+                        </div>
+                        <div class="d-flex flex-row pr-4">
+                            <span class="mdi mdi-web mdi-18px text-white"></span>
+                            <a href="https://geopark.netlify.com/">
+                                <p class="text-white ml-1 mb-0">geopark.netlify.com</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-black2">
+            <div class="container py-4">
+                <div class="row py-5">
+                    <div class="col-md-8">
+                        <p class="text-white">Gunung Abang adalah daya tarik wisata ikonik di Kintamani. Pada Gunung Abang wisatawan dapat menikmati suasana dari ketenangan alam di wilayah Gunung Abang. Tempat ini dikenal karena keindahannya yang terbentuk dari letusan gunung Batur Purba. Untuk wisatawan yang ingin melakukan aktivitas pendakian, Point awal untuk kegiatan trekking ini adalah dari desa Abang Songan</p>
+                        <hr style="border: 1px solid #444">
+                        <i class="text-white">Mount Abang is the iconic attraction of Kintamani. Your trip to Bali is incomplete if you haven’t visited to this place. Enjoy the perfect weather and serenity of nature in the lap of Mount Abanag. This place is known for its glorious beauty and the popular volcanic eruption. This place will steal your Heart for sure. Why just listen to us and dream of it, Why not try yourself!. The starting pont for this trekking activity is from Abang Songan village, in Abang Erawang Cluster.</i>
+                        <br>
+                        <a href="#" class="btn btn-link text-gold mt-2 float-right">
+                            <span class="mdi mdi-share"></span> Share
+                        </a>
+                    </div>
+                    <div class="col-md-4 border p-3">
+                        <div class="d-flex flex-column align-items-stretch">
+                            <div id="map" class="" style="height:250px; width: 100%;"></div>
+                            <a href="#" class="btn btn-primary mt-2 align-self-end">
+                               <span class="mdi mdi-directions"></span> Directions
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-gold pt-5 pb-4 px-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-white mb-2">
+                        <h5 class="font-weight-bold">CONTACT US</h5>
+                        <ul class="p-0">
+                            <li><span class="mdi mdi-email-outline"></span> info@baturglobalgeopark.com</li>
+                            <li><span class="mdi mdi-phone"></span> 0366-91537</li>
+                            <li><span class="mdi mdi-fax"></span> 0366-91537</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 text-white mb-2">
+                        <h5 class="font-weight-bold">OTHER LINKS</h5>
+                        <ul class="p-0">                        
+                            <li>Dinas Pariwisata Kabupaten Bangli</li>
+                            <li>ASEAN Biodiversity</li>
+                            <li>Pemerintah Kabupaten Bangli</li>
+                            <li>UNESCO</li>
+                            <li>Global Geopark</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 text-white mb-2">
+                        <h5 class="font-weight-bold">SOCIAL MEDIA</h5>
+                        <ul class="p-0">                        
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div id="copyright" class="d-flex justify-content-center bg-gold-darker p-3">
+            <p class="m-0 font-weight-bold text-center">Copyright &copy; 2019 Batur Global Park Official Website</p>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $(this).scrollTop(0);
+        });
+
+        var mymap = L.map('map').setView([-8.261383, 115.391466], 15);
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            maxZoom: 13,
+            id: 'mapbox.streets',
+            accessToken: 'pk.eyJ1Ijoic3VyeWF3aWd1bmFhIiwiYSI6ImNqbTh0YnkxMDBzeTQza2tkenAwaWszOGEifQ.cY1nx875Kw12YxqT7nCpyw'
+        }).addTo(mymap);
+        L.marker([-8.261383, 115.391466], {title:"pendakian_batur"}).addTo(mymap).
+        bindPopup("<img src="+img1+"><b>Pendakian Gunung Batur</b>").openPopup();
+
+    </script>
+</body>
+</html>

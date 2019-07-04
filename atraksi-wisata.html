@@ -63,9 +63,9 @@
     <div id="main">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 px-0" style="min-height: 100vh;height: 100%">
-                    <div class="row bg-white p-4">
-                        <div class="col-6">
+                <div class="col-md-6 px-0 d-block" style="min-height: 100vh;height: 100%">
+                    <div class="row bg-white px-4 py-3 d-none d-sm-none d-md-flex">
+                        <div class="col-md-6 my-2">
                             <select class="custom-select">
                                 <option selected>Cluster</option>
                                 <option value="1">Karanganyar</option>
@@ -75,7 +75,7 @@
                                 <option value="5">Abang Songan</option>
                             </select>
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6 my-2">
                             <select class="custom-select">
                                 <option selected>Jenis Atraksi</option>
                                 <option value="1">Alam</option>
@@ -84,6 +84,14 @@
                             </select>
                         </div>
                     </div>
+                    <div class="btn-map d-flex justify-content-between px-4 mt-4 d-none d-sm-flex d-md-none">
+                        <button id="btn-filter" class="btn btn-secondary">
+                            <span class="mdi mdi-filter"></span> Filter
+                        </button>
+                        <button id="btn-map" class="btn btn-secondary">
+                            <span class="mdi mdi-map-marker-radius"></span> Map
+                        </button>
+                    </div>
                     <div class="card-deck m-0 p-4">
                         <div class="card border-0 m-0">
                             <img class="card-img-top" src="assets/images/Batur-Geopark-.jpg" alt="Card image cap">
@@ -91,7 +99,7 @@
                                 <h5 class="card-title font-weight-bold text-gold">Pendakian Gunung Batur</h5>
                                 <p class="card-text text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <div class="d-flex">
-                                    <a id="pendakian_batur" href="#" class="btn btn-outline-secondary btn-sm border flex-fill mr-1" style="border-radius: 20px;">
+                                    <a id="pendakian_batur" href="#" class="btn btn-info btn-sm border flex-fill mr-1" style="border-radius: 20px;">
                                        <span class="mdi mdi-map-marker"></span> Lihat di peta
                                     </a>
                                     <a href="#" class="btn btn-outline-secondary btn-sm border flex-fill ml-1" style="border-radius: 20px;">
@@ -131,7 +139,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="map" class="col-md-6" style="height:100vh; width:100%; position: fixed; right:0;"></div>
+                <div id="map" class="col-md-6 d-none d-sm-none d-md-block" style="height:100vh; position: fixed; right:0;"></div>
             </div>
         </div>
     </div>

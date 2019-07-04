@@ -39,6 +39,10 @@
 a {
     text-decoration: none !important;
 }
+#main {
+    width: 100%;
+    max-width: 100%;
+}
 #nav-activities .nav-link {
     color: #FFFFFF;
     padding: 25px 10px;
@@ -83,9 +87,17 @@ body {
 .bg-gold {background-color: #c09944;}
 .bg-gold-darker {background-color: #b68f3a;}
 .bg-black {background-color: #000000;}
+.bg-black2 {background-color: #1b1b1b;}
 .bg-yellow {background-color: #f1e211;}
 .border-gold {
     border: 1px solid #d1a84e;
+}
+#img-slider {
+    overflow-x: scroll;
+    height: 400px;
+}
+#img-slider>img {
+    height: 100%;
 }
 li {
     list-style: none;
