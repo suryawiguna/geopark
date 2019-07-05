@@ -94,29 +94,29 @@
                     </div>
                     <div class="card-deck m-0 p-4">
                         <div class="card border-0 m-0">
-                            <img class="card-img-top" src="assets/images/Batur-Geopark-.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="assets/images/Batur-Geopark-.jpg" alt="Card image cap" height="210px" style="object-fit: cover">
                             <div class="card-body">
                                 <h5 class="card-title font-weight-bold text-gold">Pendakian Gunung Batur</h5>
                                 <p class="card-text text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <div class="d-flex">
-                                    <a id="pendakian_batur" href="#" class="btn btn-info btn-sm border flex-fill mr-1" style="border-radius: 20px;">
+                                    <button id="pendakian_batur" class="btn btn-info btn-sm border flex-fill mr-1" style="border-radius: 20px;">
                                        <span class="mdi mdi-map-marker"></span> Lihat di peta
-                                    </a>
-                                    <a href="#" class="btn btn-outline-secondary btn-sm border flex-fill ml-1" style="border-radius: 20px;">
+                                    </button>
+                                    <a href="atraksi-detail.html" class="btn btn-outline-secondary btn-sm border flex-fill ml-1" style="border-radius: 20px;">
                                         Detail
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="card border-0 m-0">
-                            <img class="card-img-top" src="assets/images/Batur-Geopark-.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="assets/images/gallery/ulun-danu/2015-03-19.jpg" alt="Card image cap" height="210px" style="object-fit: cover">
                             <div class="card-body">
                                 <h5 class="card-title font-weight-bold text-gold">Pura Ulun Danu</h5>                                
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <div class="d-flex">
-                                    <a id="ulundanu" href="#" class="btn btn-outline-secondary btn-sm border flex-fill mr-1" style="border-radius: 20px;">
+                                    <button id="ulundanu" class="btn btn-info btn-sm border flex-fill mr-1" style="border-radius: 20px;">
                                         <span class="mdi mdi-map-marker"></span> Lihat di peta
-                                    </a>
+                                    </button>
                                     <a href="#" class="btn btn-outline-secondary btn-sm border flex-fill ml-1" style="border-radius: 20px;">
                                         Detail
                                     </a>
@@ -124,17 +124,33 @@
                             </div>
                         </div>
                         <div class="card border-0 m-0">
-                            <img class="card-img-top" src="assets/images/Batur-Geopark-.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="assets/images/Batur-Geopark-.jpg" alt="Card image cap" height="210px" style="object-fit: cover">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <h5 class="card-title font-weight-bold text-gold">Pendakian Gunung Batur</h5>
+                                <p class="card-text text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex">
+                                    <button id="pendakian_batur" class="btn btn-info btn-sm border flex-fill mr-1" style="border-radius: 20px;">
+                                        <span class="mdi mdi-map-marker"></span> Lihat di peta
+                                    </button>
+                                    <a href="atraksi-detail.html" class="btn btn-outline-secondary btn-sm border flex-fill ml-1" style="border-radius: 20px;">
+                                        Detail
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div class="card border-0 m-0">
-                            <img class="card-img-top" src="assets/images/Batur-Geopark-.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="assets/images/gallery/ulun-danu/2015-03-19.jpg" alt="Card image cap" height="210px" style="object-fit: cover">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title font-weight-bold text-gold">Pura Ulun Danu</h5>                                
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex">
+                                    <button id="ulundanu" class="btn btn-info btn-sm border flex-fill mr-1" style="border-radius: 20px;">
+                                        <span class="mdi mdi-map-marker"></span> Lihat di peta
+                                    </button>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm border flex-fill ml-1" style="border-radius: 20px;">
+                                        Detail
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -182,7 +198,7 @@
             }
         }
         
-        $("a").click(function(){
+        $("button").click(function(){
             markerFunction($(this)[0].id);
         });
     </script>
