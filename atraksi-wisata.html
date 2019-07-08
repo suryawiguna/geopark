@@ -15,7 +15,7 @@
     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
     integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
     crossorigin=""></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <style>
@@ -64,144 +64,52 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 px-0 d-block" style="min-height: 100vh;height: 100%">
-                    <div class="row bg-white px-4 py-3 d-none d-sm-none d-md-flex">
+                    <div id="filter" class="row bg-white px-4 py-3 d-none d-sm-none d-md-flex" style="z-index:9">
                         <div class="col-md-6 my-2">
                             <select class="custom-select">
-                                <option selected>Cluster</option>
+                                <option selected disabled hidden>Cluster</option>
                                 <option value="1">Karanganyar</option>
                                 <option value="2">Manuk Jambe Tarumenyan</option>
                                 <option value="3">Singamandawa</option>
                                 <option value="4">Ulundanu Muncar</option>
-                                <option value="5">Abang Songan</option>
+                                <option value="5">Abang Erawang</option>
                             </select>
                         </div>
                         <div class="col-md-6 my-2">
                             <select class="custom-select">
-                                <option selected>Jenis Atraksi</option>
+                                <option selected disabled hidden>Jenis Atraksi</option>
                                 <option value="1">Alam</option>
                                 <option value="2">Budaya</option>
                                 <option value="3">Buatan</option>
                             </select>
                         </div>
                     </div>
-                    <div class="btn-map d-flex justify-content-between px-4 mt-4 d-none d-sm-flex d-md-none">
-                        <button id="btn-filter" class="btn btn-secondary">
+                    <div class="btn-map d-flex justify-content-between px-4 mt-4 d-none d-sm-flex d-md-none mb-5">
+                        <button id="btn-filter" class="btn btn-secondary" style="position: fixed; z-index:1;">
                             <span class="mdi mdi-filter"></span> Filter
                         </button>
-                        <button id="btn-map" class="btn btn-secondary">
+                        <button id="btn-map" class="btn btn-secondary" style="position: fixed; z-index:1; right:25px">
                             <span class="mdi mdi-map-marker-radius"></span> Map
                         </button>
                     </div>
-                    <div class="card-deck m-0 p-4">
-                        <div class="card border-0 m-0">
-                            <img class="card-img-top" src="assets/images/Batur-Geopark-.jpg" alt="Card image cap" height="210px" style="object-fit: cover">
-                            <div class="card-body">
-                                <h5 class="card-title font-weight-bold text-gold">Pendakian Gunung Batur</h5>
-                                <p class="card-text text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex">
-                                    <button id="pendakian_batur" class="btn btn-info btn-sm border flex-fill mr-1" style="border-radius: 20px;">
-                                       <span class="mdi mdi-map-marker"></span> Lihat di peta
-                                    </button>
-                                    <a href="atraksi-detail.html" class="btn btn-outline-secondary btn-sm border flex-fill ml-1" style="border-radius: 20px;">
-                                        Detail
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card border-0 m-0">
-                            <img class="card-img-top" src="assets/images/gallery/ulun-danu/2015-03-19.jpg" alt="Card image cap" height="210px" style="object-fit: cover">
-                            <div class="card-body">
-                                <h5 class="card-title font-weight-bold text-gold">Pura Ulun Danu</h5>                                
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex">
-                                    <button id="ulundanu" class="btn btn-info btn-sm border flex-fill mr-1" style="border-radius: 20px;">
-                                        <span class="mdi mdi-map-marker"></span> Lihat di peta
-                                    </button>
-                                    <a href="#" class="btn btn-outline-secondary btn-sm border flex-fill ml-1" style="border-radius: 20px;">
-                                        Detail
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card border-0 m-0">
-                            <img class="card-img-top" src="assets/images/Batur-Geopark-.jpg" alt="Card image cap" height="210px" style="object-fit: cover">
-                            <div class="card-body">
-                                <h5 class="card-title font-weight-bold text-gold">Pendakian Gunung Batur</h5>
-                                <p class="card-text text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex">
-                                    <button id="pendakian_batur" class="btn btn-info btn-sm border flex-fill mr-1" style="border-radius: 20px;">
-                                        <span class="mdi mdi-map-marker"></span> Lihat di peta
-                                    </button>
-                                    <a href="atraksi-detail.html" class="btn btn-outline-secondary btn-sm border flex-fill ml-1" style="border-radius: 20px;">
-                                        Detail
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card border-0 m-0">
-                            <img class="card-img-top" src="assets/images/gallery/ulun-danu/2015-03-19.jpg" alt="Card image cap" height="210px" style="object-fit: cover">
-                            <div class="card-body">
-                                <h5 class="card-title font-weight-bold text-gold">Pura Ulun Danu</h5>                                
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex">
-                                    <button id="ulundanu" class="btn btn-info btn-sm border flex-fill mr-1" style="border-radius: 20px;">
-                                        <span class="mdi mdi-map-marker"></span> Lihat di peta
-                                    </button>
-                                    <a href="#" class="btn btn-outline-secondary btn-sm border flex-fill ml-1" style="border-radius: 20px;">
-                                        Detail
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <div id="card-deck" class="card-deck m-0 p-4"></div>
                 </div>
                 <div id="map" class="col-md-6 d-none d-sm-none d-md-block" style="height:100vh; position: fixed; right:0;"></div>
             </div>
         </div>
     </div>
+    <script src="assets/js/atraksi-wisata.js"></script>
     <script>
-        
         $(document).ready(function(){
-            $(this).scrollTop(0);
-        });
-    
-        var mymap = L.map('map').setView([-8.261383, 115.391466], 15);
-        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-            maxZoom: 18,
-            id: 'mapbox.streets',
-            accessToken: 'pk.eyJ1Ijoic3VyeWF3aWd1bmFhIiwiYSI6ImNqbTh0YnkxMDBzeTQza2tkenAwaWszOGEifQ.cY1nx875Kw12YxqT7nCpyw'
-        }).addTo(mymap);
-        var markers = [];
-        function clickZoom(e) {
-            mymap.setView(e.target.getLatLng(),15);
-        }
-
-        var img1 = "assets/images/Batur-Geopark-.jpg";
-        var pendakian_batur = L.marker([-8.261383, 115.391466], {title:"pendakian_batur"}).addTo(mymap).
-        bindPopup("<img src="+img1+"><b>Pendakian Gunung Batur</b>").on('click', clickZoom);
-        markers.push(pendakian_batur);
-
-        var img2 = "assets/images/Batur-Geopark-.jpg"
-        var ulundanu = L.marker([-8.252309, 115.335629], {title:"ulundanu"}).addTo(mymap).
-        bindPopup("<img src="+img2+"><b>Pura Ulun Danu</b>").on('click', clickZoom);
-        markers.push(ulundanu);
-
-        function markerFunction(id){
-            for (var i in markers){
-                var markerID = markers[i].options.title;
-                var position = markers[i].getLatLng();
-                if (markerID == id){
-                    mymap.setView(position, 15);
-                    markers[i].openPopup();
-                };
-            }
-        }
-        
-        $("button").click(function(){
-            markerFunction($(this)[0].id);
+            $('#btn-filter').on('click', function(){
+                $('#filter').toggleClass('d-none');
+            });
+            $('#btn-map').on('click', function(){
+                $('#map').toggleClass('d-none');;
+                $('#btn-filter').toggleClass('d-none');
+                $('#filter').addClass('d-none');
+            });
         });
     </script>
-    
 </body>
 </html>

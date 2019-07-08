@@ -1,0 +1,384 @@
+{
+    "clusters" : [
+        {
+            "cluster_path": "abang_erawang",
+            "cluster_name": "Abang Erawang",
+            "attractions": [
+                {
+                    "attraction_name": "Air Terjun Tirta Paceburan",
+                    "attraction_path": "air_terjun_tirta_paceburan",
+                    "images": [
+                        {"src": "12687828_10204643087152105_8172544692960044103_n.jpg"},
+                        {"src": "ab2.jpg"},
+                        {"src": "ab6.jpg"},
+                        {"src": "ab8.jpg"},
+                        {"src": "abx3.jpg"}
+                    ],
+                    "description_id": "Terletak di lereng Gunung Abang dan sangat disakralkan oleh masyarakat setempat. Keunikan dari air terjun ini ialah air yang mengalir tidak pernah kering ataupun berhenti saat musim kemarau tiba, jika dibandingkan dengan air terjun lainnya di Kecamatan Kintamani tak ada satu mata air pun yang memiliki debit yang memadai, dimana sumber air di air terjun ini mengalir dari pertengahan Gunung Abang atau Gunung Tuluk Biu.",
+                    "description_en": "Located on the slopes of Mount Abang and very sacred by the local community. The uniqueness of this waterfall is that the flowing water never dries or stops when the dry season arrives, compared to other waterfalls in Kintamani Subdistrict there is no single spring that has adequate source of water like this one , where the water source in this waterfall flows from the middle Gunung Abang or Tuluk Biu Mountain.",
+                    "coordinates": [-8.199471, 115.304014]
+                },
+                {
+                    "attraction_name": "Pendakian Gunung Abang",
+                    "attraction_path": "pendakian_gunung_abang",
+                    "images": [
+                        {"src": "61386311_425156481671841_852396321028324180_n.jpg"},
+                        {"src": "61919536_2239667569456159_9030089712659961110_n.jpg"},
+                        {"src": "64396477_379514209355409_9174488949265259987_n.jpg"},
+                        {"src": "65301623_572836639790232_577501058859255994_n.jpg"},
+                        {"src": "65303472_623430384807359_2141930657567803848_n.jpg"}
+                    ],
+                    "description_id": "Gunung Abang adalah daya tarik wisata ikonik di Kintamani. Pada Gunung Abang wisatawan dapat menikmati suasana dari ketenangan alam di wilayah Gunung Abang. Tempat ini dikenal karena keindahannya yang terbentuk dari letusan gunung Batur Purba. Untuk wisatawan yang ingin melakukan aktivitas pendakian, Point awal untuk kegiatan trekking ini adalah dari desa Abang Songan",
+                    "description_en": "Mount Abang is the iconic attraction of Kintamani. Your trip to Bali is incomplete if you haven’t visited to this place. Enjoy the perfect weather and serenity of nature in the lap of Mount Abanag. This place is known for its glorious beauty and the popular volcanic eruption. This place will steal your Heart for sure. Why just listen to us and dream of it, Why not try yourself!. The starting pont for this trekking activity is from Abang Songan village, in Abang Erawang Cluster.",
+                    "coordinates": [-8.279301, 115.429273]
+                },
+                {
+                    "attraction_name": "Taman Wisata Alam Penelokan",
+                    "attraction_path": "taman_wisata_alam_penelokan",
+                    "images": [
+                        {"src": "19533944_872522982895372_1988106332292513792_n.jpg"},
+                        {"src": "51680113_124952811909908_8722923663313447962_n.jpg"},
+                        {"src": "61399798_432464257534149_5789873836172289990_n.jpg"},
+                        {"src": "61687143_437647487019511_4490799161800229025_n.jpg"},
+                        {"src": "c726c3d61da1_resize_800_600_rel_left_top.jpg"}
+                    ],
+                    "description_id": "Panelokan sesuai dengan namanya dalam Bahasa Bali yaitu tempat melihat merupakan lokasi yang paling strategis untuk menikmati pemandangan alam dengan udara yang sejuk dan segar. Mempunyai panorama yang sangat indah dan unik karena dari kawasan ini dapat dilihat panorama Gunung Batur serta danaunya. Apabila udara cerah, dapat pula dilihat puncak Gunung Agung, sebagai gunung tertinggi di Bali disamping itu terdapat Gunung Abang, sebagai lokasi pendakian gunung untuk melihat matahari terbit di sekitar Gunung Agung. Rute pendakian ke Gunung Abang, dimulai dari kawasan TWA ini. Kegiatan wisata yang dapat dilakukan antara lain menikmati panorama alam yang khas dan udara yang sejuk, lintas alam (hiking), rekreasi, perkemahan (camping), outbound, petualangan hutan (jungle trekking) dengan pendakian gunung, pengamatan satwa (wildlife  watching), wisata pendidikan dan penelitian.",
+                    "description_en": "Penelokan as its name in Balinese, where viewing is the most strategic location to enjoy natural scenery with cool and fresh air. It has a very beautiful and unique panorama because at this region you can see the panorama of both Mount Batur and Batur lake. If the forecast is friendly, you can also see the peak of Mount Agung, as the highest mountain in Bali besides that there is Mount Abang, as a starting point of climbing activity to see the sun rising around Mount Agung. The climbing route to Gunung Abang, starts from this area. Tourism activities that can be enjoyed in this area are enjoying a unique natural panorama with cool breezing air, hiking, recreation, camping, outbound, jungle trekking with mountaineering, wildlife watching, tours education and research.",
+                    "coordinates": [-8.271151, 115.347851]
+                }
+            ]
+        },
+        {
+            "cluster_path": "karanganyar",
+            "cluster_name": "Karanganyar",
+            "attractions": [
+                {
+                    "attraction_name": "Ampupu Kembar",
+                    "attraction_path": "ampupu_kembar",
+                    "images": [
+                        {"src": "43061224_992041034315562_3217122456313822795_n.jpg"},
+                        {"src": "45783936_344979052749801_8847334840461749129_n.jpg"},
+                        {"src": "54731746_320252268548677_7456922398565215981_n.jpg"},
+                        {"src": "55727233_130488504702182_4823480391621068150_n.jpg"},
+                        {"src": "56295529_807442032953823_5388825641899136970_n.jpg"}
+                    ],
+                    "description_id": "Ampupu Kembar terletak di wilayah Batur Tengah dan dikelola oleh Pokdarwis (Kelompok Sadar Wisata) warga Songan dan kawasan tersebut adalah penguasaan Balai Konservasi Sumber Daya Alam. Daya tarik wisata ini memanfaatkan keaslian hutan yang mana hutan ini kebanyakan endemis dari pohon Ampupu serta dengan bebatuan bekas letusan Gunung Batur , dimana lokasi ini memiliki pemandangan yang sangat asri dan indah",
+                    "description_en": "Ampupu Kembar is located in Batur Tengah village and is managed by local working group from Songan residents and the area is controlled by the Natural Resources Conservation Center. This tourist attraction utilizes the authenticity of the forest where the forest is mostly endemic from Ampupu trees and with the rocks of the former Mount Batur eruption, where this location has a very beautiful and beautiful scenery",
+                    "coordinates": [-8.264324, 115.386980]
+                },
+                {
+                    "attraction_name": "Anjungan Penelokan",
+                    "attraction_path": "anjungan_penelokan",
+                    "images": [
+                        {"src": "51712094_1087397328099695_5291028530313351086_n.jpg"},
+                        {"src": "51945352_410555396389701_4832416468453787951_n.jpg"},
+                        {"src": "55752840_835127313509039_4660753657082263103_n.jpg"},
+                        {"src": "64790499_657478434714902_2735094015259902058_n.jpg"},
+                        {"src": "IMG_2097.jpg"}
+                    ],
+                    "description_id": "Terletak di sebelah Selatan Desa Batur Tengah. Banyak wisatawan baik domestik maupun internasional memilih tempat ini untuk sekedar mengambil foto dan menikmati udara segar. Wilayah Panelokan sendiri memiliki spot terbaik untuk melihat pemandangan Gunung Batur serta Danau Batur karena wilayah ini memiliki ketinggian sekitar 1500 mdpl.",
+                    "description_en": "Located in the South of Batur Tengah Village. Many tourists both domestic and international choose this place just to take photos and enjoy the fresh air. The Panelokan area itself has the best spot to see the sights of Mount Batur and Lake Batur because this region has a height of around 1500 masl.",
+                    "coordinates": [-8.268032, 115.347527]
+                },
+                {
+                    "attraction_name": "Batur Museum",
+                    "attraction_path": "batur_museum",
+                    "images": [
+                        {"src": "13092348_567786090068151_1100618470_n.jpg"},
+                        {"src": "16583524_1753287914981772_222812737128890368_n.jpg"},
+                        {"src": "42697367_359295961280901_8862113088249236728_n.jpg"},
+                        {"src": "43271665_176283809961993_2967983096333153733_n.jpg"},
+                        {"src": "46656805_512577072568622_643071901191826719_n.jpg"}
+                    ],
+                    "description_id": "Untuk memvisualisasikan keindahan Gunung batur maka pemerintah pusat bekerja sama dengan pemerintah Provinsi Bali dan pemerintah Kabupaten Bangli sepakat mewujudkan pembangunan museum Gunung Api Batur. Adapun lokasi dari museum ini yaitu di areal parkir daya tarik wisata Penelokan, atau sekitar 20km sebelah utara Kota Bangli. Museum ini menampilkan pegetahuan alam Batur Geopark, maupun geopark – geopark yang berada diseluruh dunia. Tidak hanya geopark, namun juga terdapat peninggalan sejarah masyarakat Bali kuno.",
+                    "description_en": "To visualize the beauty of Gunung Batur, the central government agree to collaborate with the provincial government of Bali and the Bangli Regency government and constructs Batur Volcano museum. The location of this museum is in the parking area of Penelokan tourist attraction, or about 20km north of Bangli City. This museum displays the natural knowledge of Batur Geopark, as well as others geopark located throughout the world. Not only geopark, but also there are historical relics of ancient Balinese people.",
+                    "coordinates": [-8.283538, 115.364514]
+                },
+                {
+                    "attraction_name": "Batur Natural Hot Spring",
+                    "attraction_path": "batur_natural_hot_spring",
+                    "images": [
+                        {"src": "49907156_460860391110270_2924975402596888486_n.jpg"},
+                        {"src": "51101887_378226453002042_4230603337849376872_n.jpg"},
+                        {"src": "54266350_821784694831141_1157856830768424460_n.jpg"},
+                        {"src": "54512510_2139963112757952_1641295590663566160_n.jpg"},
+                        {"src": "61477149_2968716176486741_2151816413966486618_n.jpg"}
+                    ],
+                    "description_id": "Salah satu pemandian air panas di Kintamani selain Toya Devasya, perjalanan yang dapat ditempuh ke tempat ini dari Bandara Ngurah Rai yaitu 2 jam. Lokasi dari Batur Natural Hot Spring ini tepat di samping Danau Batur, Desa Batur Tengah, Toya Bungkah, Kintamani. Wisatawan yang datang ke tempat ini biasanya hanya sekedar untuk bermain atau berendam di air panas dengan pemandangan menghadap ke Danau Batur dan Gunung Abang, tak sedikit juga yang datang dengan alasan pengobatan dan relaksasi dengan belerang yang bersumber dari air panas alami Gunung Batur",
+                    "description_en": "One of the hot springs in Kintamani besides the Toya Devasya, the trip that can be taken to this place is from Ngurah Rai Airport is 2 hours. The location of Batur Natural Hot Spring is right beside Lake Batur, Batur Tengah Village, Toya Bungkah, Kintamani. Tourists who come to this place are usually just to play or soak in hot water with views overlooking Lake Batur and Mount Abang, not a few tourist also come with reasons for treatment and relaxation with sulfur sourced from the natural hot water of Mount Batur",
+                    "coordinates": [-8.250980, 115.400282]
+                },
+                {
+                    "attraction_name": "Pendakian Batur",
+                    "attraction_path": "pendakian_batur",
+                    "images": [
+                        {"src": "61751719_142432206869500_4836069601906516677_n.jpg"},
+                        {"src": "62062632_608733482951584_2959060129236480962_n.jpg"},
+                        {"src": "62237621_481332079340362_6713304552190130263_n.jpg"},
+                        {"src": "62649724_858052724577766_7874767428464606045_n.jpg"},
+                        {"src": "b8.jpg"}
+                    ],
+                    "description_id": "Mendaki Gunung Batur adalah salah satu kegiatan paling menarik di Kintamani yang tidak dapat dilewatkan. Tidak ada tempat lain yang bisa memberikan sambutan yang lebih baik terhadap matahari terbit. Gunung Batur dianggap sebagai salah satu gunung suci oleh umat Hindu, trekking saat fajar di Bali sangat terkenal di kalangan wisatawan di mana pun, di seluruh dunia. Rasakan tantangannya saat mendaki, tetapi Anda terus berjalan untuk mencapai puncak dan menikmati fajar yang menakjubkan. Bersebelahan dengan Gunung Batur terletak danau Batur berbentuk bulan sabit yang besar, semuanya dikelilingi oleh tebing tinggi tepi kawah, membuat pemandangannya benar-benar luar biasa. Titik awal untuk kegiatan trekking ini adalah di Karang Anyar Cluster, terutama di desa Batur Tengah.",
+                    "description_en": "Trek to Mount Batur is one of the most exciting activities in Kintamani which cannot be missed. Head fast to Batur and see the sun rising. No other place can provide a better welcome the sun. Mount Batur is considered as one of the sacred mountains by the Hindus. The dawn trekking in Bali is exceptionally well known among the vacationers everywhere, throughout the world. Feel the difficulties as you the dimness raises them but you trek continuously to reach the top and appreciate the stunning dawn. Adjacent to Mount Batur lies the large crescent – shaped Batur lake, all surrounded by the high walls of crater rim, making the view absolutely magnificent. Starting point for this trekking activity is in Karang Anyar Cluster, especially in Batur Tengah village.",
+                    "coordinates": [-8.239244, 115.377055]
+                },
+                {
+                    "attraction_name": "Pura Jati",
+                    "attraction_path": "pura_jati",
+                    "images": [
+                        {"src": "54248169_357604604962667_3419291458106801754_n.jpg"},
+                        {"src": "54511673_664253127340560_1838787759874490580_n.jpg"},
+                        {"src": "59004740_2154201274663697_3304827686214067200_n.jpg"},
+                        {"src": "61730011_2353124638261884_2890401159623866214_n.jpg"},
+                        {"src": "64990401_127884361762334_2040329681426841413_n.jpg"}
+                    ],
+                    "description_id": "Pura ini terletak di pinggir danau Batur untuk memuja Ida Sang Hyang Widi Wasa dalam manifestasinya sebagai Bhatara Hyang Gangga. Masyarakat memiliki kepercayaan pada  Dewi Danuh maka pada saat upacara agama tertentu masyarakat datang untuk memohon air suci di pura Jati Batur.",
+                    "description_en": "This temple is located on the edge of Lake Batur to worship Ida Sang Hyang Widi Wasa in its manifestation as Bhatara Hyang Gangga. The community has trust in Dewi Danuh, so during certain religious ceremonies the community comes to beg for holy water in the Jati Batur temple.",
+                    "coordinates": [-8.266802, 115.384631]
+                },
+                {
+                    "attraction_name": "Pura Ulun Danu Batur",
+                    "attraction_path": "pura_ulun_danu_batur",
+                    "images": [
+                        {"src": "54248095_204091497216740_6159380700172825895_n.jpg"},
+                        {"src": "54266399_270016383884727_3751185590341978446_n.jpg"},
+                        {"src": "56529083_2228176140769567_5936212060972369808_n.jpg"},
+                        {"src": "61492114_294319908121194_3365985616240226491_n.jpg"},
+                        {"src": "61953110_139808000423655_65874650171558061_n.jpg"}
+                    ],
+                    "description_id": "Cobalah mengunjungi Pura suci yang terletak di desa Batur Selatan, Kluster Karanganyar ini. Untuk memuja keasrian alam, Hindu Bali membangun Pura sebagai adaptasi dan presentasi menyerupai bentuk gunung. Pura ini dirancang sebagai tempat suci dengan ruang terbuka yang dikelilingi ukiran tembok khas, dihubungkan dengan serangkaian gerbang berdekorasi untuk mencapai kompleksnya. 27 Pura lainnya yang serupa ditemukan di sekitar Kaldera Batur. Bangunan Pura ini terbuat dari batu lava andesit-basaltik berukir yang diproduksi oleh Gunung Batur. Beberapa Pura di sekitar kaldera dikategorikan sebagai situs arkeologi.",
+                    "description_en": "Try to visit this sacred Temple that located on Batur Selatan, in Karanganyar Cluster. For the worship natural world, the Balinese Hindu builds temple as adaptation and presentation of mountain-like figure. It is designed as an open air worship place within enclosed walls, connected with series of intricately decorated gates to reach its compounds. 27 others Pura are found around Batur Caldera. The temple buildings made from carved stone of andesitic-basaltic lava that produced by the Batur Volcano. Some of Pura are categorized as archaeological site.",
+                    "coordinates": [-8.254533, 115.335862]
+                },
+                {
+                    "attraction_name": "Rejeng Bali Camp",
+                    "attraction_path": "rejeng_bali_camp",
+                    "images": [
+                        {"src": "38285803_297973164089535_204410326978920448_n.jpg"},
+                        {"src": "52695155_323671708503574_186686235769112865_n.jpg"},
+                        {"src": "53633906_322474928471533_2309260719759370122_n.jpg"},
+                        {"src": "54512042_358244754793810_8806758557460974980_n.jpg"},
+                        {"src": "62252047_121284165774528_8287660548799485328_n.jpg"}
+                    ],
+                    "description_id": "Rejeng Bali Camp adalah tempat untuk berkemah yang sederhana dengan harga yang murah, pengunjung akan dimanjakan dengan pemandangan Danau Batur serta Gunung Batur dan Gunung Abang. Lokasi dari Rejeng Bali Camp ini ada pada Desa Batur Tengah berdekatan dengan Toya Mampeh dan berdekatan juga dengan daya tarik wisata batur Natural Hotspring, daya tarik wisata ini dikelola oleh kelompok pariwisata masyarakat desa Batur.",
+                    "description_en": "Rejeng Bali Camp is a simple camping place at a cheap price, visitors will be satisfied with views of Lake Batur,Mount Batur and Mount Abang. The location of Rejeng Bali Camp is in Batur Tengah Village adjacent to both Toya Mampeh and Batur Natural Hot Springs, this tourist attraction is managed by the Batur community tourism group.",
+                    "coordinates": [-8.253011, 115.399858]
+                },
+                {
+                    "attraction_name": "Tirta Pancoran Solas",
+                    "attraction_path": "tirta_pancoran_solas",
+                    "images": [
+                        {"src": "20633368_1456308574459114_8252358743879057408_n.jpg"},
+                        {"src": "27879257_147916319214727_1336635797230583808_n.jpg"},
+                        {"src": "28751666_155266905164012_5550083613225123840_n.jpg"},
+                        {"src": "52125576_1980857455375085_8788593899804200188_n.jpg"},
+                        {"src": "60612305_2109900765795451_6184977064137760535_n.jpg"}
+                    ],
+                    "description_id": "Pancoran Solas Seked merupakan daya tarik wisata spiritual atau religius, dan berada di kawasan Batur UNESCO Global Geopark, tepatnya di banjar Seked, Desa Batur Tengah. Pancoran solas dikelola oleh desa Adat Batur dan diresmikan tahun 2017. Pancoran Solas ini merupakan tempat umat Hindu untuk membersihkan diri (melukat).",
+                    "description_en": "Pancoran Solas Seked is a spiritual or religious tourist attraction, and is located in the UNESCO Global Geopark Batur area, precisely in Banjar Seked, Central Batur Village. Pancoran solas is managed by the Adat Batur village and was inaugurated in 2017. Pancoran Solas is a place for Hindus to cleanse themselves.",
+                    "coordinates": [-8.274952, 115.378509]
+                },
+                {
+                    "attraction_name": "Toya Devasya",
+                    "attraction_path": "toya_devasya",
+                    "images": [
+                        {"src": "60481370_349105962412625_1255325309568404498_n.jpg"},
+                        {"src": "64306444_317241389224125_3801828925555301882_n.jpg"},
+                        {"src": "64365578_344450273155196_4188089404236444393_n.jpg"},
+                        {"src": "64616088_204783197095640_5552804610306691005_n.jpg"},
+                        {"src": "66071640_2309086279353191_8822325068354005060_n.jpg"}
+                    ],
+                    "description_id": "Terletak di desa Batur Utara di Kluster Karanganyar, Toya Devasya Hot Spring menjadi salah satu pilihan utama anda untuk menikmati ketenangan yang sempurna dengan pemandian air panas. Pemandian air panas Toya Devasya adalah pemandian air panas alami yang unik di Bali yang juga dikatakan memiliki beberapa manfaat penyembuhan. Satu hal yang membuat tempat ini menarik adalah keindahan pemandangan daerah yang menawan yang membuat para pengunjung terpesona. Berendam di sumber air panas ini akan mendetoksifikasi tubuh anda dan menenangkan pikiran Anda. Tiga kolam renang ada di tempat ini, dengan luas sekitar 15 m, tepat menghadap ke Gunung dan Danau Batur. Pemulihan kekuatan dan penyembuhan untuk beberapa penyakit telah datang dari kandungan belerang dari mata air panas.",
+                    "description_en": "Located on Batur Utara village in Karanganyar Cluster Toya Devasya Hot Spring must be among your top choices to enjoy the perfect serenity with a hot spring bath. Toya Devassya Hot Spring is a unique natural hot spring in Bali which is also said to have some medicinal healing powers. The one thing that makes this place even better is the endearing scenic beauty of the region which leaves the onlookers awestruck. Breathe in the clean air as you enjoy tranquility, soaked in the hot spring that will detox your body and soothe your mind. Three swimming pools are present in the region, with an area of about 15 m, right overlooking the Mount and Lake Batur area. Restoration of power and cure to several diseases has been credited to the sulphur content of the hot springs.",
+                    "coordinates": [-8.250450, 115.400277]
+                },
+                {
+                    "attraction_name": "Yeh Mampeh",
+                    "attraction_path": "yeh_mampeh",
+                    "images": [
+                        {"src": "19429060_325914911197270_6729182715867824128_n.jpg"},
+                        {"src": "21479820_414688232262298_3626460524050382848_n.jpg"},
+                        {"src": "44474204_348949102351520_7598159147372190747_n.jpg"},
+                        {"src": "54731580_131924564540673_3630307836436816829_n.jpg"},
+                        {"src": "62229841_144409896740132_5344350169531201278_n.jpg"}
+                    ],
+                    "description_id": "Air Terjun Yeh Mampeh terletak di Desa Batur Selatan, DTW ini berdampingan dengan Pura Tirta Mas mampeh dan cocok untuk wisata spiritual. Sumber Air Terjun Yeh Mampeh berasal dari Pura Tirta Mas Mampeh atau Pura Taman yang berada di atas bukit. Air Terjun ini memiliki ketinggian sekitar 15 meter. Untuk menuju lokasi Daya Tarik Wisata yeh Mampeh kurang lebih berjarak 28km dari Pusat Kota Bangli",
+                    "description_en": "Yeh Mampeh Waterfall is located in Batur Selatan Village, this place is adjacent to the Tirta Mas Temple and is suitable for spiritual tourism. The source of Yeh Mampeh Waterfall comes from Pura Tirta Mas Mampeh or Pura Taman up the hill. This Waterfall has a height of about 15 meters. To get to this tourist attraction,it is approximately 28km from the Bangli City.",
+                    "coordinates": [-8.153794, 115.362493]
+                }
+            ]
+        },
+        {
+            "cluster_path": "manuk_jambe_taru_menyan",
+            "cluster_name": "Manuk Jambe Taru Menyan",
+            "attractions": [
+                {
+                    "attraction_name": "Desa Wisata Trunyan",
+                    "attraction_path": "desa_wisata_trunyan",
+                    "images": [
+                        {"src": "47583763_595776667502933_2054555163530630393_n.jpg"},
+                        {"src": "49625915_281410039244063_4273561290768995767_n.jpg"},
+                        {"src": "61585209_706926593079547_1564298334064686154_n.jpg"},
+                        {"src": "62238184_162470074789777_591724736942083776_n.jpg"},
+                        {"src": "65229276_635362443648152_9117569486455527838_n.jpg"}
+                    ],
+                    "description_id": "Desa Trunyan terletak di tepi Danau Batur atau di kaki sebelah barat Gunung Abang. Penduduk desa ini adalah keturunan asli Bali Aga. Dengan aspek kebudayaan yang unik, desa ini dapat dicapai dengan perahu dari desa Kedisan selama 30 menit. Nama dari Desa Trunyan berasal dari kata “Taru dan Menyan”, pohon berbau harum yang tumbuh di sekitar desa tersebut. Trunyan mempunyai tradisi pemakaman di mana jenazah dimakamkan di atas batu besar tepat di bawah pohon Taru yang memiliki cekungan 7 buah dengan wajah terbuka kemudian dipakaikan kain putih. Adat Desa Terunyan mengatur tata cara menguburkan mayat bagi warganya. Di desa ini ada tiga kuburan (sema) yang diperuntukan bagi tiga jenis kematian yang berbeda",
+                    "description_en": "Trunyan Village is located on the shores of Lake Batur or in the western skirt of Mount Abang. The inhabitants of this village are native to Bali Aga. With unique cultural aspects, this village can be reached by boat from Kedisan village for 30 minutes. The name of Trunyan Village comes from the words 'Taru and Menyan', a fragrant tree that grows around the village. Trunyan has a unique funeral tradition in which the body is buried on a large stone just below the Taru tree which has a basin of 7 pieces with an open face then put on a white cloth. Indigenous Village of Terunyan regulates the procedure for burying dead bodies for its citizens. In this village there are three graves (sema) intended for three different types of deaths",
+                    "coordinates": [-8.256938, 115.432236]
+                },
+                {
+                    "attraction_name": "Pura Pancering Jagat",
+                    "attraction_path": "pura_pancering_jagat",
+                    "images": [
+                        {"src": "10549627_302535903240435_520361499_n.jpg"},
+                        {"src": "17267632_1268526546549393_3097897238442016768_n.jpg"},
+                        {"src": "40207247_292836258194758_7690519151172911104_n.jpg"},
+                        {"src": "42003862_846822352190979_7538892620376499966_n.jpg"},
+                        {"src": "43507215_477853906055872_3851609458274428370_n.jpg"}
+                    ],
+                    "description_id": "Terletak di Desa Trunyan di Klaster Manuk jambe Taru Menya, nama Pura ini berasal dari patung megalitik setinggi 4m, yang disebut oleh penduduk setempat 'Arca da Tonta' atau Ratu Gede Pusering Jagat. Upacara ritual besar pura ini jatuh pada kalender Bali yaitu Purnamaning Sasih Kapat (sekitar Oktober). Saat beberapa waktu ritual besar tersebut, Barong Brutuk dipentaskan langsung, untuk merayakan ulang tahun pernikahan legendaris antara Ratu Sakti Pancering Jagat (penjaga desa) dan Ratu Ayu Dalem Piningit (Ratu Ayu Dalem Dasar).",
+                    "description_en": "Located in Trunyan Village in Manuk jambe Taru Menyan Cluster, the name of the temple came from 4m high megalithic statue, called by locals 'Arca da Tonta' or Ratu Gede Pusering Jagat. The big ritual ceremony of the Temple falls on the Balinese calendar of Purnamaning Sasih Kapat (around October). During some occassions Barong Brutuk is performed live, to celebrate the legendary wedding anniversary between Ratu Sakti Pancering Jagat (the guardian of the village) and Ratu Ayu Dalem Piningit (Ratu Ayu Dalem Dasar).",
+                    "coordinates": [-8.251438, 115.426206]
+                }
+            ]
+        },
+        {
+            "cluster_path": "singamandawa",
+            "cluster_name": "Singamandawa",
+            "attractions": [
+                {
+                    "attraction_name": "Air Terjun Kubu Salya",
+                    "attraction_path": "air_terjun_kubu_salya",
+                    "images": [
+                        {"src": "44233771_2421829737843656_1352963422772537538_n.jpg"},
+                        {"src": "50832979_157733675215424_394487678673476439_n.jpg"},
+                        {"src": "56622607_408248029906464_5078708225904832565_n.jpg"},
+                        {"src": "61351001_319147235692905_5443892236987548972_n.jpg"},
+                        {"src": "61693754_2473419129544295_1385059178036262576_n.jpg"}
+                    ],
+                    "description_id": "Seperti yang diketahui, untuk Kabupaten Bangli, daya tarik wisata air terjun jarang terdapat di sekitar kawasan ini, sehingga daya tarik wisata ini merupakan potensi yang menarik yang terdapat di Desa Sukawana, ada 2 buah Air Terjun yang terdapat di Desa Sukawana, Air Terjun yang pertama kira-kira setinggi 30 meter, dengan lebar sekitar 2,5 meter. Uniknya lagi di masing-masing Air Terjun tersebut, terdapat mata air panas yang tak kalah menarik.",
+                    "description_en": "As is known, for Bangli Regency, the attraction of waterfall tourism is rarely found around this area, so this tourist attraction is an interesting tourism potential found in Sukawana Village, there are 2 pieces of Waterfall located in Sukawana Village, the first Waterfall is about 30 meters high and 2.5 meters wide. Uniquely in each of these waterfalls, there are hot springs that are no less interesting.",
+                    "coordinates": [-8.204870, 115.309803]
+                },
+                {
+                    "attraction_name": "Pinggan Sunrise Spot",
+                    "attraction_path": "pinggan_sunrise_spot",
+                    "images": [
+                        {"src": "45457175_137738087211600_4429496671828675204_n.jpg"},
+                        {"src": "52891230_2609620532413764_7897949846752229590_n.jpg"},
+                        {"src": "56669861_412109369586303_6606974547724100464_n.jpg"},
+                        {"src": "56697213_600991073749708_2363281856378138572_n.jpg"},
+                        {"src": "57052429_413147219474482_6192747863694368742_n.jpg"}
+                    ],
+                    "description_id": "Merupakan tempat terbaik di Bali untuk melihat pemandangan desa yang diselimuti kabut sebagai latar belakang sekitar jam 06:00 pagi. harus sudah berada di lokasi kira-kira jam 05:30 pagi. Aktivitas wisata melihat pemandangan kabut desa Pinggan Kintamani, masuk dalam ketegori aktivitas wisata gratis di Bali. Karena tidak akan dikenakan biaya tiket masuk. Jika anda seorang yang gemar landscape photography, pemandangan kabut desa Pinggan Kintamani, salah satu lokasi hunting foto lansekap terbaik di Bali.",
+                    "description_en": "It is the best place in Bali to see the scenery of the village which is shrouded in mist, with a background around 6:00 a.m. You must be at the location around 5:30 in the morning. Witnessing the fog landscape of the village of Kintamani Suburb, fall into the category of free tourist activities in Bali, because there will be no entrance ticket fees. If you are a person who likes landscape photography, view the fog of the village suburb of Kintamani, one of the best landscape photo hunting locations in Bali.",
+                    "coordinates": [-8.210615, 115.364692]
+                },
+                {
+                    "attraction_name": "Pura Dalem Balingkang",
+                    "attraction_path": "pura_dalem_balingkang",
+                    "images": [
+                        {"src": "15251744_1185358654846931_3740255089852416000_n.jpg"},
+                        {"src": "21576660_517261715288269_1122069693662756864_n.jpg"},
+                        {"src": "23417237_353721815090818_7796667219194150912_n.jpg"},
+                        {"src": "28153674_415739782196842_2685945437361274880_n.jpg"},
+                        {"src": "big_slider_Klenteng_Cong_Po_Kong_yang_terletak_di_dalam_Pura_Ulun_Danu_Batur_2C_Bali.JPG"}
+                    ],
+                    "description_id": "Pura Dalem balingkang terletak di Desa Pinggan di Klaster Singamandawa. Lebih mudah untuk mencapai tempat ini dengan kendaraan, sampai ke area parkir terlebih dahulu, dan dilanjutkan dengan berjalan kaki sekitar 500 meter untuk mencapai pintu masuk. Kata 'Balingkang' diterjemahkan 'Raja Bali'. Kuil Dalem Balingkang adalah hasil akulturasi antara peradaban Cina dan Bali pada 11 abad yang lalu. Bahkan tempat ini sendiri telah dipengaruhi oleh desain dan gaya arsitektur Cina.",
+                    "description_en": "Dalem balingkang Temple is located at Pinggan Village on Singamandawa Cluster. It is easier to reach this place with a vehicle, get to the parking area first, and continue on foot for some 500 meters to reach the entrance. The word 'Balingkang' translates 'King of Bali'. Dalem Balingkang Temple was a result of an acculturation between Chinese and Balinese civilization in the 11 centuries ago. Even the place itself has been influenced by chinese designs and architectural styles.",
+                    "coordinates": [-8.204348, 115.369999]
+                },
+                {
+                    "attraction_name": "Pura Puncak Penulisan",
+                    "attraction_path": "pura_puncak_penulisan",
+                    "images": [
+                        {"src": "17437461_1393561470707768_3918065301387739136_n.jpg"},
+                        {"src": "40032580_232505610743504_1047477364545552384_n.jpg"},
+                        {"src": "49596454_776800276020305_7959348350693129560_n.jpg"},
+                        {"src": "57262962_2260373437508491_2853024046211739804_n.jpg"},
+                        {"src": "pura-puncak-penulisan.jpg"}
+                    ],
+                    "description_id": "Pura ini terletak sekitar 1.745 meter di atas permukaan laut, dan terletak di Desa Sukawana di Cluster Singamandawa. Berdasarkan pada naskah kuno Bali, dikatakan bahwa Bukit Penulisan, tempat candi ini dibangun juga disebut Bukit Tunggal, sebuah bukit yang membelah Bali dari Barat ke Timur menjadi sisi selatan dan sisi utara Bali. Sekitar abad kesembilan, di puncak Bukit Penulisan Tegeh Koripan dibangun, yang lebih dikenal sebagai Candi Puncak Penulisan, karena terletak di atas Bukit Penulisan. Pura ini memiliki 11 teras, teras menunjukkan kelanjutan dari aspek struktur piramidal usia megalitik. Jika anda tertarik untuk mengetahui tentang Kerajaan Bali Dwipa, Puncak Penulisan memiliki banyak dari apa yang tersisa pada saat Raja Jaya Pangus memerintah kerajaan Bali.",
+                    "description_en": "This temple sits around 1,745 meters above sea levels, and located at Sukawana Village on Singamandawa Cluster. Puncak penulisan Temple , based on balinese old manuscripts, it was said that Penulisan Hills where this temple was built was also called tunggal Hill, a stretching hill that separated Bali from West to East become the southern side and northern side of Bali. Around the ninth century, on the peak of Penulisan Hill Tegeh Koripan temple was built, known more as Puncak Penulisan Temple, as it lies on top of penulisan hill. This temple has 11 terraces. the terraces show the continuation of pyramidal structural aspect of megalithic age. If you interested in knowing about Bali Dwipa Kingdom, Puncak Penulisan has many of what remains in King Jaya Pangus ruled kingdom.",
+                    "coordinates": [-8.208839, 115.326218]
+                },
+                {
+                    "attraction_name": "Sukawana Sunrise Spot",
+                    "attraction_path": "sukawana_sunrise_spot",
+                    "images": [
+                        {"src": "50006480_116592866090892_9152132418710279829_n.jpg"},
+                        {"src": "57094641_1045384305646394_3802063498065043359_n.jpg"},
+                        {"src": "59614442_2388167648131522_8986739856445339684_n.jpg"},
+                        {"src": "59680004_203996283920907_5788802521224141506_n.jpg"},
+                        {"src": "60843101_143023610091482_6073304999743175965_n.jpg"}
+                    ],
+                    "description_id": "Merupakan sebuah daya tarik wisata swafoto yang saat ini sedang digemari oleh wisatawan nusantara maupun mancanegara. Pemandangan yang ditawarkan pada daya tarik wisata ini adalah gambar siluet dari Gunung Batur, tidak sedikit juga wisatawan yang melakukan aktifitas foto pre-wedding dan camping.",
+                    "description_en": "It is a selfie tourism attraction that is currently favored by domestic and foreign tourists. The scenery offered at this tourist attraction is a silhouette of Mount Batur, not a few tourists who do pre-wedding and camping activities.",
+                    "coordinates": [-8.217115, 115.356308]
+                }
+            ]
+        },
+        {
+            "cluster_path": "ulun_danu_muncar",
+            "cluster_name": "Ulun Danu Muncar",
+            "attractions": [
+                {
+                    "attraction_name": "Bukit Alengkong",
+                    "attraction_path": "bukit_alengkong",
+                    "images": [
+                        {"src": "43046153_358573551546199_413043579656870032_n.jpg"},
+                        {"src": "45381710_330408944179727_5705418063331983360_n.jpg"},
+                        {"src": "56209775_397252190860303_4486026618380385772_n.jpg"},
+                        {"src": "64569660_199302947631898_588847560525247290_n.jpg"},
+                        {"src": "65126807_2373723522688853_6803607475193245852_n.jpg"}
+                    ],
+                    "description_id": "Adalah salah satu bukit yang mengelilingi kawasan Kintamani, terletak di desa Songan A. Pada daya tarik wisata ini sudah terdapat aktifitas wisata seperti bersepeda dan pendakian gunung Batur lewat jalur Barat/jalur kuno (Climb Mount Batur from West Street) yang memang dulu sudah dipakai untuk hal. Daya tarik wisata ini juga menawarkan pemandangan yang indah, asli dan asri dan tentunya panorama Gunung dan Danau Batur dapat dinikmati dari kawasan ini, bahkan  dari kawasan ini juga kita bisa melihat  tiga gunung atau sering disebut dengan triple mountain view yakni Gunung Batur, Gunung Agung, Gunung Abang dan juga bisa melihat laut.",
+                    "description_en": "Is one of the hills that surrounds the Kintamani area, located in the village of Songan A. In this tourist attraction there are already tourist activities such as cycling and climbing Mount Batur through the West lane / ancient lane (Climb Mount Batur from West Street). This tourist attraction also offers beautiful, original and beautiful scenery and of course the panorama of Mount and Lake Batur can be enjoyed from this region, even from this region we can see three mountains or often called triple mountain view namely Mount Batur, Gunung Agung, Mount Abang and can also see the sea.",
+                    "coordinates": [-8.227772, 115.424236]
+                },
+                {
+                    "attraction_name": "Pura Kayu Selem",
+                    "attraction_path": "pura_kayu_selem",
+                    "images": [
+                        {"src": "10155373_450418631727113_8601485406163862971_n.jpg"},
+                        {"src": "20180416_081324_HDR.jpg"},
+                        {"src": "53884418_2382467871988288_7518454716513859533_n.jpg"},
+                        {"src": "56938397_991413887913594_4271581215192381907_n.jpg"},
+                        {"src": "Pemasopatian-Benda-Suci-Menyongsong-Peradaban-Baru-9.jpg"}
+                    ],
+                    "description_id": "Pura Kayu Selem, merupakan sebuah tempat ibadah yang disakralkan oleh masyarakat sekitar atau masyarakat yang memiliki kawitan “Pasek Kayuselem”, adalah warga yang menempati kawasan Banjar Kayu Selem di Desa Songan.",
+                    "description_en": "Kayu Selem Temple, is a place of worship sacred by the surrounding community or the people who have the offsprings of 'Pasek Kayuselem', are residents who occupy the Banjar Kayu Selem area in Songan Village.",
+                    "coordinates": [-8.382613, 115.439454]
+                },
+                {
+                    "attraction_name": "Pura Ulun Danu Songan",
+                    "attraction_path": "pura_ulun_danu_songan",
+                    "images": [
+                        {"src": "2017-04-04.jpg"},
+                        {"src": "2017-08-05.jpg"},
+                        {"src": "2019-01-26 (1).jpg"},
+                        {"src": "2019-01-26.jpg"},
+                        {"src": "IMG_20190506_170755.jpg"}
+                    ],
+                    "description_id": "Menurut masyarakat setempat, dulu mereka membangun pura ini  atas nasehat Mpu Kuturan untuk menghormati baktinya ke Hyang Dewi Danu sehingga mereka juga turut mendirikan patung Dewi Danu yang terletak di dekat area Pura, patung ini menjadi sebuah Landmark yang unik di Desa Songan. Setiap tanggal 19 September Umat Hindu yang tersebar di seluruh Bali bahkan sampai ada yang dari Lombok dan Jawa mengunjungi pura tersebut. Banyak petani (kelompok subak) membawa hasil panennya sebagai persembahan atas perairan yang selama ini dianugrahkan oleh Bhatara yang bersthana di Pura Hulun Danu Songan. Setiap tanggal 19 September ini masyarakat di desa Songan juga ikut berpastisipasi untuk mempertunjukkan tarian-tarian khas dari desa mereka sendiri yaitu Tari Baris Gede, Tari Tumba Barat, dan Tari Tumba Selem.",
+                    "description_en": "According to the local community, they used to build this temple on the advice of Mpu Kuturan to honor their devotion to Hyang Dewi Danu so they also co-founded the statue of Dewi Danu located near the temple area, this statue became a unique Landmark in Songan Village. Every 19 September Hindus people who spread throughout Bali even to those from Lombok and Java visits this temple. Many farmers (the subak group) brought their crops as offerings for the waters which had been awarded by Bhatara who held the Temple of Hulun Danu Songan. Every September 19th, the community in Songan village also participates to demonstrate typical dances from their own villages, namely Baris Gede Dance, West Tumba Dance, and Tumba Selem Dance.",
+                    "coordinates": [-8.220508, 115.417406]
+                },
+                {
+                    "attraction_name": "Rumah Adat Belandingan",
+                    "attraction_path": "rumah_adat_belandingan",
+                    "images": [
+                        {"src": "11325937_1456124998013148_1414205100_n.jpg"},
+                        {"src": "11380806_1443477422642838_1430478982_n.jpg"},
+                        {"src": "dsc_0969e.jpg"},
+                        {"src": "esc_0001_2-55.jpg"},
+                        {"src": "esc_0001_2-60.jpg"}
+                    ],
+                    "description_id": "Untuk desa Belandingan, kekhasan sendiri dari desa ini yaitu memiliki rumah adat yang unik, serta masyarakatnya yang masih menjaga keadaan desa begitu adanya, pemikiran seperti inilah yang membuat masyarakat desa Belandingan memiliki tingkat pendidikan, ekonomi, dan kesehatan yang rendah dibandingkan dengan desa yang ada di kaldera Batur lainnya, namun desa ini masih terlihat betul keasriannya.",
+                    "description_en": "For Belandingan village, its own peculiarities of the village are having a unique traditional house, as well as the people who still maintain the condition of the village as it is, this kind of thinking makes the Belandingan villagers have a low level of education, economy and health compared to the villages in the other Batur caldera, but this village still looks really beautiful.",
+                    "coordinates": [-8.208514, 115.407302]
+                }
+            ]
+        }
+    ]
+}

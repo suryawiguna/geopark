@@ -15,7 +15,7 @@
     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
     integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
     crossorigin=""></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
@@ -51,20 +51,14 @@
         </div>
     </nav>
     <div id="main">
-        <div id="img-slider" class="d-flex flex-row mt-5">
-            <img src="assets/images/atraksi/pendakian-batur/61751719_142432206869500_4836069601906516677_n.jpg" class="mx-1" alt="">
-            <img src="assets/images/atraksi/pendakian-batur/62062632_608733482951584_2959060129236480962_n.jpg" class="mx-1" alt="">
-            <img src="assets/images/atraksi/pendakian-batur/62237621_481332079340362_6713304552190130263_n.jpg" class="mx-1" alt="">
-            <img src="assets/images//atraksi/pendakian-batur/62649724_858052724577766_7874767428464606045_n.jpg" class="mx-1" alt="">
-            <img src="assets/images/atraksi/pendakian-batur/b8.jpg" class="mx-1" alt="">
-        </div>
+        <div id="img-slider" class="d-flex flex-row mt-5"></div>
     
         <div class="container my-4">
             <div class="row">
                 <div class="col">
                     <small class="text-secondary">Cluster <span class="mdi mdi-chevron-right"></span> Atraksi Wisata<span class="mdi mdi-chevron-right"></span> Detail</small>
-                    <h1 class="text-gold font-weight-bold serif mb-0 mt-3">Pendakian Batur</h1>
-                    <p class="text-light">Cluster Karanganyar</p>
+                    <h1 id="attraction_name" class="text-gold font-weight-bold serif mb-0 mt-3"></h1>
+                    <p id="cluster_name" class="text-light"></p>
                     <div class="d-flex flex-column flex-md-row flex-wrap">
                         <div class="d-flex flex-row pr-4">
                             <span class="mdi mdi-star mdi-18px text-gold"></span>
@@ -98,9 +92,9 @@
                 <div class="row py-4">
                     <div class="col-md-8">
                         <div class="border rounded p-3">
-                            <p class="text-white">Mendaki Gunung Batur adalah salah satu kegiatan paling menarik di Kintamani yang tidak dapat dilewatkan. Tidak ada tempat lain yang bisa memberikan sambutan yang lebih baik terhadap matahari terbit. Gunung Batur dianggap sebagai salah satu gunung suci oleh umat Hindu, trekking saat fajar di Bali sangat terkenal di kalangan wisatawan di mana pun, di seluruh dunia. Rasakan tantangannya saat mendaki, tetapi Anda terus berjalan untuk mencapai puncak dan menikmati fajar yang menakjubkan. Bersebelahan dengan Gunung Batur terletak danau Batur berbentuk bulan sabit yang besar, semuanya dikelilingi oleh tebing tinggi tepi kawah, membuat pemandangannya benar-benar luar biasa. Titik awal untuk kegiatan trekking ini adalah di Karang Anyar Cluster, terutama di desa Batur Tengah.</p>
+                            <p id="desc_id" class="text-white"></p>
                             <hr style="border: 1px solid #444">
-                            <i class="text-white">Trek to Mount Batur is one of the most exciting activities in Kintamani which cannot be missed. Head fast to Batur and see the sun rising. No other place can provide a better welcome the sun. Mount Batur is considered as one of the sacred mountains by the Hindus. The dawn trekking in Bali is exceptionally well known among the vacationers everywhere, throughout the world. Feel the difficulties as you the dimness raises them but you trek continuously to reach the top and appreciate the stunning dawn. Adjacent to Mount Batur lies the large crescent – shaped Batur lake, all surrounded by the high walls of crater rim, making the view absolutely magnificent. Starting point for this trekking activity is in Karang Anyar Cluster, especially in Batur Tengah village.</i>
+                            <i id="desc_en" class="text-white"></i>
                             <br>
                             <div class="d-flex justify-content-end">
                                 <a href="#" class="btn btn-link text-gold mt-2 float-right">
@@ -182,21 +176,6 @@
             <p class="m-0 font-weight-bold text-center">Copyright &copy; 2019 Batur Global Park Official Website</p>
         </div>
     </div>
-    <script>
-        $(document).ready(function(){
-            $(this).scrollTop(0);
-        });
-
-        var mymap = L.map('map').setView([-8.261383, 115.391466], 15);
-        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-            maxZoom: 13,
-            id: 'mapbox.streets',
-            accessToken: 'pk.eyJ1Ijoic3VyeWF3aWd1bmFhIiwiYSI6ImNqbTh0YnkxMDBzeTQza2tkenAwaWszOGEifQ.cY1nx875Kw12YxqT7nCpyw'
-        }).addTo(mymap);
-        L.marker([-8.261383, 115.391466], {title:"pendakian_batur"}).addTo(mymap).
-        bindPopup("<img src="+img1+"><b>Pendakian Gunung Batur</b>").openPopup();
-
-    </script>
+    <script src="assets/js/atraksi-detail.js"></script>
 </body>
 </html>
