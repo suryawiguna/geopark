@@ -211,6 +211,9 @@ span.text-red {color: #f40000;}
     width: 280px;
     margin-top: 30px;
 }
+.goog-te-banner-frame {
+    visibility: hidden !important;
+}
   .tourism-item:hover {
     background-color: #c09944;
   }
