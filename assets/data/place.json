@@ -1,0 +1,124 @@
+{
+    "places" : [
+        {
+            "coordinates": [-8.249374, 115.394138],
+            "place_path": "batur_volcano_guest_house",
+            "place_name": "Batur Volcano Guest House",
+            "images": [
+                "2485244.jpg",
+                "20180918-115232-largejpg.jpg",
+                "20180918-115303-largejpg.jpg",
+                "batur-volcano-guesthouse.jpg",
+                "photo1jpg.jpg"
+            ]
+        },
+        {
+            "coordinates": [-8.278933, 115.367396],
+            "place_path": "caldera_hotel_restaurant",
+            "place_name": "Caldera Hotel & Restaurant",
+            "images": [
+                "3520863.jpg",
+                "3520863_1.jpg",
+                "3520863_2.jpg",
+                "20180620-145205-largejpg.jpg",
+                "photo0jpg.jpg"
+            ]
+        },
+        {
+            "coordinates": [-8.271404, 115.346181],
+            "place_path": "gong_dewata_restaurant",
+            "place_name": "Gong Dewata Restaurant",
+            "images": [
+                "7feb8221752e48163b1e052248085935.jpg",
+                "0e7456c2af41933d41f0ebaccbf44e3e_featured_v2.jpg",
+                "10c66b6b096848310d3d283903b521fe.jpg",
+                "17ae447e140dd3028e6d9d3db09bc04a.jpg",
+                "e05e228f3243dc625f20894a4dc5610a.jpg"
+            ]
+        },
+        {
+            "coordinates": [-8.272763, 115.347434],
+            "place_path": "grand_puncak_sari",
+            "place_name": "Grand Puncak Sari Restaurant",
+            "images": [
+                "08ccb5d5271522afe4e8789d9a8fb30e_featured_v2.jpg",
+                "4daa7ffd8504a85f0bd12b7e731cd1d7.jpg",
+                "13b4a324715f1006983890f3338309ef_featured_v2.jpg",
+                "39ecff3b6514b12726e266ef3918181a_1531060924.jpg",
+                "5511e72414ca9feaa61f6c8cef5c62b7_1555265228.jpg"
+            ]
+        },
+        {
+            "coordinates": [-8.283339, 115.365782],
+            "place_path": "lake_view_hotel",
+            "place_name": "Lake View Hotel",
+            "images": [
+                "danu-lounge-gallery.jpg",
+                "deluxe-room-with-baby.jpg",
+                "enjoying-the-magnificent.jpg",
+                "hideable-retractable.jpg",
+                "king-sized-bed-in-our.jpg"
+            ]
+        },
+        {
+            "coordinates": [-8.243182, 115.400168],
+            "place_path": "mapa_lake_view_bungalow",
+            "place_name": "Mapa Lake View Bungalow",
+            "images": [
+                "breakfast-with-amazing.jpg",
+                "mapa-lake-view-bungalow.jpg",
+                "mapa-lake-view-bungalow_1.jpg",
+                "mapa-lake-view-bungalow_2.jpg",
+                "mapa-lake-view-bungalow_3.jpg"
+            ]
+        },
+        {
+            "coordinates": [-8.272857, 115.347770],
+            "place_path": "panca_yoga_restaurant",
+            "place_name": "Panca Yoga Restaurant",
+            "images": [
+                "9cf6517302673a1c69382b39871f3dff.jpg",
+                "179bb55790e88eb921c221bac5d381b5.jpg",
+                "ba20da064ee4bed1a0156f8171c08655.jpg",
+                "d7aa7c19fb0ad78ce0c8d84e562b74da.jpg",
+                "eb81f80948d48a2cb508668f7a874c09.jpg"
+            ]
+        },
+        {
+            "coordinates": [-8.280894, 115.387253],
+            "place_path": "resto_apung",
+            "place_name": "Resto Apung",
+            "images": [
+                "8b4db691ac5a5441b9bff8546dd127c8_1465889068.jpg",
+                "500c3daa2071b56be21b32e62547991e.jpg",
+                "b38e5c24005eb81c346af6096d210129.jpg",
+                "bbf3f9a695421c714447d4803b6e52f2_1505991579.jpg",
+                "f84dd34e787263f28aef66ed4cf310e1.jpg"
+            ]
+        },
+        {
+            "coordinates": [-8.279072, 115.357218],
+            "place_path": "the_amora",
+            "place_name": "The Amora",
+            "images": [
+                "22f4f4742cbecd5cd82cdc7f028b49cf_1481526763.jpg",
+                "6fa7de15a06d06e9ef4589fece629c06_1551148404.jpg",
+                "24ca4f63411e4d64b018d9d53d5ad965_1481526762.jpg",
+                "239c20fcb6bc16f62ae801f718ec3420_1481526757.jpg",
+                "bf0d7bceaeda28ad9b73bd6dec610bc6.jpg"
+            ]
+        },
+        {
+            "coordinates": [-8.246223, 115.400701],
+            "place_path": "volcano_terrace_bali",
+            "place_name": "Volcano Terrace Bali",
+            "images": [
+                "20170330-125908-largejpg.jpg",
+                "20180928-155001-largejpg.jpg",
+                "20181001-113855-largejpg.jpg",
+                "img-20180928-wa0007-largejpg.jpg",
+                "lakeview.jpg"
+            ]
+        }
+    ]
+}

@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home - Geopark</title>
+    <title>Resto Apung - Geopark</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/3.6.95/css/materialdesignicons.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+    integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+    crossorigin=""></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
@@ -16,7 +23,7 @@
     <nav id="navbar" class="container-fluid navbar navbar-expand-lg fixed-top bg-gold py-0 navbar-light">
         <div class="container">
             <a href="index.html" class="navbar-brand">
-                <img src="assets/images/logo.png" alt="">
+                <img src="/assets/images/logo.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="mdi mdi-menu"></span>
@@ -24,14 +31,14 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto text-center">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#our-features">Our Features</a>
+                        <a class="nav-link" href="#">Our Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about-us.html">About Us</a>
+                        <a class="nav-link" href="/about-us.html">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -44,67 +51,125 @@
         </div>
     </nav>
     <div id="main">
-        <div class="jumbotron jumbotron-home jumbotron-fluid d-flex flex-column justify-content-center align-items-center">
-            <div class="container text-center">
-                <h1 class="display-4 serif font-weight-bold text-white">DISCOVER THE GEOPARK</h1>
-                <p class="lead serif text-white">Wander the beautiful volcanic scenery and suit yourself</p>
-                <form action="" class="form-inline d-flex justify-content-center">
-                    <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="search..." aria-label="Recipient's username" aria-describedby="basic-addon2">
-                        <div class="input-group-append">
-                            <button type="submit" class="input-group-text mdi mdi-magnify bg-gold" id="basic-addon2"></button>
+        <div id="img-slider" class="d-flex flex-row mt-5">
+            <img src="/assets/images/places/resto_apung/8b4db691ac5a5441b9bff8546dd127c8_1465889068.jpg" class="mx-1" alt="">
+            <img src="/assets/images/places/resto_apung/500c3daa2071b56be21b32e62547991e.jpg" class="mx-1" alt="">
+            <img src="/assets/images/places/resto_apung/b38e5c24005eb81c346af6096d210129.jpg" class="mx-1" alt="">
+            <img src="/assets/images/places/resto_apung/bbf3f9a695421c714447d4803b6e52f2_1505991579.jpg" class="mx-1" alt="">
+            <img src="/assets/images/places/resto_apung/f84dd34e787263f28aef66ed4cf310e1.jpg" class="mx-1" alt="">
+        </div>
+    
+        <div class="container my-4">
+            <div class="row">
+                <div class="col">
+                    <small class="text-secondary">Places <span class="mdi mdi-chevron-right"></span> Detail</small>
+                    <h1 id="attraction_name" class="text-gold font-weight-bold serif mb-0 mt-3">Resto Apung</h1>
+                    <div class="d-flex flex-column flex-md-row flex-wrap">
+                        <div class="d-flex flex-row pr-4">
+                            <span class="mdi mdi-star mdi-18px text-gold"></span>
+                            <span class="mdi mdi-star mdi-18px text-gold"></span>
+                            <span class="mdi mdi-star mdi-18px text-gold"></span>
+                            <span class="mdi mdi-star mdi-18px text-gold"></span>
+                            <span class="mdi mdi-star mdi-18px text-gold"></span>
+                            <small class="text-secondary ml-1">(1)</small>
+                        </div>
+                        <div class="d-flex flex-row pr-4">
+                            <span class="mdi mdi-phone mdi-18px text-white"></span>
+                            <p class="text-white ml-1 mb-0">(0366)-91537</p>
+                        </div>
+                        <div class="d-flex flex-row pr-4">
+                            <span class="mdi mdi-facebook-box mdi-18px text-white"></span>
+                            <p class="text-white ml-1 mb-0">Batur Global Geopark</p>
+                        </div>
+                        <div class="d-flex flex-row pr-4">
+                            <span class="mdi mdi-web mdi-18px text-white"></span>
+                            <a href="https://geopark.netlify.com/">
+                                <p class="text-white ml-1 mb-0">geopark.netlify.com</p>
+                            </a>
                         </div>
                     </div>
-                </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-black2">
+            <div class="container py-4">
+                <div class="row py-4">
+                    <div class="col-md-8">
+                        <div class="border rounded p-3">
+                            <small class="text-white">Jumlah Kursi</small>
+                            <ul class="list-group list-group-flush text-white">
+                                <li class="list-group-item bg-black2 py-1">360</li>
+                            </ul><br>
+                            <small class="text-white">Makanan</small>
+                            <ul class="list-group list-group-flush text-white">
+                                <li class="list-group-item bg-black2 py-1">Balinese, Indonesian, Asian</li>
+                            </ul><br>
+                            <small class="text-white">Harga/pax</small>
+                            <ul class="list-group list-group-flush text-white">
+                                <li class="list-group-item bg-black2 py-1">Rp75.000</li>
+                            </ul><br>
+                            <small class="text-white">Jam Buka</small>
+                            <ul class="list-group list-group-flush text-white">
+                                <li class="list-group-item bg-black2 py-1">Setiap hari,  11am – 5pm</li>
+                            </ul><br>
+                            <small class="text-white">Info Lainnya</small>
+                            <ul class="list-group list-group-flush text-white">
+                                <li class="list-group-item bg-black2 py-1"><i class="mdi mdi-check"></i> Takeaway Available</li>
+                                <li class="list-group-item bg-black2 py-1"><i class="mdi mdi-check"></i> Wine and Beer</li>
+                                <li class="list-group-item bg-black2 py-1"><i class="mdi mdi-check"></i> Outdoor Seating</li>
+                                <li class="list-group-item bg-black2 py-1"><i class="mdi mdi-check"></i> Table booking recommended</li>
+                                <li class="list-group-item bg-black2 py-1"><i class="mdi mdi-check"></i> Smoking Area</li>
+                                <li class="list-group-item bg-black2 py-1"><i class="mdi mdi-check"></i> Indoor Seating</li>
+                                <li class="list-group-item bg-black2 py-1"><i class="mdi mdi-check"></i> Wifi</li>
+                                <li class="list-group-item bg-black2 py-1"><i class="mdi mdi-check"></i> Buffet</li>
+                            </ul><br>
+                            <div class="d-flex justify-content-end">
+                                <a href="#" class="btn btn-link text-gold mt-2 float-right">
+                                    <span class="mdi mdi-share"></span> Share
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mt-3">
+                            <div class="d-flex flex-column rounded">
+                                <p class="text-white align-self-start py-3">1 review</p>
+                                <div class="d-flex flex-column flex-md-row">
+                                    <div class="d-flex flex-column">
+                                        <img src="assets/images/user.png" alt="" width="100px" height="100px" style="filter: invert(70%);">
+                                        <small class="text-center text-light mt-2">Robert</small>
+                                    </div>
+                                    <div class="d-flex flex-column px-4">
+                                        <p class="text-white font-weight-bold">
+                                            "The best place to visit in Bali"
+                                        </p>
+                                        <div class="d-flex flex-row pr-4">
+                                            <span class="mdi mdi-star mdi-18px text-gold"></span>
+                                            <span class="mdi mdi-star mdi-18px text-gold"></span>
+                                            <span class="mdi mdi-star mdi-18px text-gold"></span>
+                                            <span class="mdi mdi-star mdi-18px text-gold"></span>
+                                            <span class="mdi mdi-star mdi-18px text-gold"></span>
+                                            <p class="text-secondary ml-2">on July 5, 2019</p>
+                                        </div>
+                                        <p class="text-white">
+                                            Beautiful place. Great choice to spend time on holiday
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex flex-column align-items-stretch">
+                            <div id="map" class="" style="height:250px; width: 100%;"></div>
+                            <a href="#" class="btn btn-primary mt-2 align-self-end">
+                               <span class="mdi mdi-directions"></span> Directions
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div id="our-features" class="d-flex flex-column justify-content-center align-items-center py-5 px-3 mb-5">
-            <h4 class="display-4 serif font-weight-bold text-gold text-center">OUR FEATURES</h4>
-            <p class="serif text-gold">Find out what makes us become one of the Global Geopark Networks!</p>
-            <div class="d-flex flex-md-row flex-column align-items-stretch">
-                <a href="geodiversity.html" class="p-0 m-2">
-                    <img src="assets/images/Batur-Geopark-.jpg" class="features-image" alt="">
-                    <p class="serif font-weight-bold text-gold text-center m-1">GEODIVERSITY</p>
-                </a>
-                <a href="cultural_diversity.html" class="p-0 m-2">
-                    <img src="assets/images/2014-10-12-14.45.20.jpg" class="features-image" alt="">
-                    <p class="serif font-weight-bold text-gold text-center m-1">CULTURE DIVERSITY</p>
-                </a>
-                <a href="biodiversity.html" class="p-0 m-2">
-                    <img src="assets/images/ape-2057989_1280.jpg" class="features-image" alt="">
-                    <p class="serif font-weight-bold text-gold text-center m-1">BIODIVERSITY</p>
-                </a>
-                <a href="history.html" class="p-0 m-2">
-                    <img src="assets/images/Museum-Batur-©-Ronald-Agusta.jpg" class="features-image" alt="">
-                    <p class="serif font-weight-bold text-gold text-center m-1">GEOPARK HISTORY</p>
-                </a>
-            </div>
-        </div>
-        <div id="tourism-travel" class="d-flex flex-column justify-content-center align-items-center py-5 px-3">
-            <h4 class="display-4 serif font-weight-bold text-gold text-center">TOURISM & TRAVEL</h4>
-            <p class="serif text-gold">Choose your interest, find what you want to do, and explore amazing places.</p>
-            <div class="row container">
-                <div class="col"></div>
-                <a href="cluster.html" class="tourism-item col-md-3 bg-black border-gold p-4 m-2">
-                    <img src="assets/images/mountain-png-clipart-12.png" alt="" class="flex-grow-1">
-                    <h5 class="font-weight-bold text-white text-center mt-2">FIND THE ATTRACTION!</h5>
-                    <small class="text-wrap text-white">Search and filter hundreds of listings, read reviews, explore photos and find the perfect spot.</small>
-                </a>
-                <a href="aktivitas-wisata.html"  class="tourism-item col-md-3 bg-black border-gold p-4 m-2">
-                    <img src="assets/images/graphicstock-couple-of-backpackers-icon-vector-illustration-graphic-design_rR1leYXYb_thumb.png" alt="" class="flex-grow-1">
-                    <h5 class="font-weight-bold text-white text-center mt-2">FIND THE ACTIVITY!</h5>
-                    <small class="text-wrap text-white">Go and have a good time or even make a booking directly from the listing page.</small>
-                </a>
-                <a href="find-the-place.html"  class="tourism-item col-md-3 bg-black border-gold p-4 m-2">
-                    <img src="assets/images/kisspng-car-refinancing-home-house-service-cartoon-house-building-5a9c2340773142.6271099115201820804882.png" alt="" class="flex-grow-1">
-                    <h5 class="font-weight-bold text-white text-center mt-2">FIND THE PLACE!</h5>
-                    <small class="text-wrap text-white">Looking for a cozy hotel to stay, a restaurant to eat, or a store to do some shopping?</small>
-                </a>
-                <div class="col"></div>
-            </div>
-        </div>
         <footer class="bg-gold pt-5 pb-4 px-3">
             <div class="container">
                 <div class="row">
@@ -132,7 +197,6 @@
                             <li><span class="mdi mdi-facebook-box"></span> Batur Global Geopark</li>
                         </ul>
                         <div id="google_translate_element"></div>
-                        
                         <button type="button" class="btn btn-dark btn-sm mt-3" data-toggle="modal" data-target="#exampleModalCenter">
                             Give feedback
                         </button>
@@ -222,17 +286,20 @@
             <p class="m-0 font-weight-bold text-center">Copyright &copy; 2019 Batur Global Park Official Website</p>
         </div>
     </div>
-    <script>
-        $(document).ready(function(){
-            $(this).scrollTop(0);
-        });
-    </script>
     <script type="text/javascript">
         function googleTranslateElementInit() {
           new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.SIMPLE}, 'google_translate_element');
         }
     </script>
-    
+    <script>
+        var mymap = L.map('map').setView([-8.261383, 115.391466], 12);
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            maxZoom: 13,
+            id: 'mapbox.streets',
+            accessToken: 'pk.eyJ1Ijoic3VyeWF3aWd1bmFhIiwiYSI6ImNqbTh0YnkxMDBzeTQza2tkenAwaWszOGEifQ.cY1nx875Kw12YxqT7nCpyw'
+        }).addTo(mymap);
+    </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
